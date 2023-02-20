@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import Header from '@/components/Header'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "@/styles/Home.module.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Layout from "@/layout/Layout";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -16,13 +17,44 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
-        {/* Layout Wrapper */}
-          <Header />
-        {/* Body Section-Variable.  Get out the Landing Page First*/}
-          {/* Footer */}
-        {/* End Layout Wrapper */}
+        <Layout>
+          <h1>Home Page</h1>
+          <p>
+            Welcome! I am a music scholar, teacher, and musician currently based
+            in Chapel Hill, NC. As a scholar I am broadly interested in the
+            relationship between musical taste and the formation of cultural
+            hierarchies in the West during the eighteenth and nineteenth
+            centuries. My book project, tentatively titled Old World Harmony,
+            New World Democracy: American Idealism and the European Musical
+            Inheritance, 1830-1870, examines the intersection of social and
+            democratic idealism with the burgeoning culture of classical music
+            in the United States during the mid-19th century. My primary calling
+            has always been teaching. For three years I worked as a Teaching
+            Fellow in the Department of Music at Durham University (UK), where I
+            taught classes and seminars in music history and culture for
+            undergraduates and graduate students. In addition to my teaching at
+            Durham, I have taught a wide variety of music history and
+            musicianship courses for music majors and non-majors at UNC-Chapel
+            Hill and UNC-Greensboro, including electives of my own design, such
+            as "Music, Madness, and the Modern World," and "Popular Music in
+            1960s U.S. Culture." In addition to my academic teaching, I have
+            taught private music lessons for many years to students of all ages.
+            I am currently a piano and violin teacher at Skylark Music School
+            based in Chapel Hill. I am an active performer on modern violin,
+            baroque violin, and viola da gamba, and have sung with a number of
+            choirs, including the Oratorio Singers of the Charlotte Symphony and
+            Concentus Carolina. Over the years I have performed in many
+            capacities--weddings, parties, church services--and currently I can
+            be found performing in concerts, church services, and special events
+            across the Raleigh-Durham-Chapel Hill region. I received my PhD
+            (2016) and my MA (2012) in historical musicology from the University
+            of North Carolina at Chapel Hill, and my BA (2009) in music from
+            Davidson College. Download my CV [link here]
+          </p>
+        </Layout>
       </main>
     </>
-  )
+  );
 }
