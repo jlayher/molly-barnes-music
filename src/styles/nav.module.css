@@ -1,0 +1,20 @@
+
+
+
+
+.linkcontainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.link { 
+    display: flex;
+    color: red;
+    align-items: flex-end;
+}
+
+/* 
+.linkcontainer {
+
+} */

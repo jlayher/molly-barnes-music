@@ -8,6 +8,12 @@ const Contact = () => {
         Contact Page
       </h1>
       <p>This is my basic contact info</p>
+
+      <div>
+        <h3>Downloads</h3>
+        <a href="">CV Download</a>
+        <a href="">PDF For Article</a>
+      </div>
     </Layout>
   )
 }
