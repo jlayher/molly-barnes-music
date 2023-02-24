@@ -20,9 +20,9 @@ const Header = () => {
 
         <div>
           <h1 className={styles.header__name}>Dr. Molly Barnes</h1>
-          <h4>Professor of Musicology</h4>
-          <h4>Music Instructor</h4>
-          <h4>Performer</h4>
+          <p>Professor of Musicology</p>
+          <p>Music Instructor</p>
+          <p>Performer</p>
         </div>
 
       </div>

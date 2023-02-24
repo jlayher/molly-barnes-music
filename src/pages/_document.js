@@ -5,8 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      {/* changge body styles or just remove body container  */}
-      <body>
+      <body >
         <Main />
         <NextScript />
       </body>
