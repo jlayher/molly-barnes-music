@@ -3,14 +3,16 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 
-const Layout = ({children}) => {
+import styles from '@/styles/layout.module.css'
+
+const Layout = ({ children }) => {
   return (
-    <div>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+    <div className={styles.container}>
+      <Header />
+      <main>{children}</main>
+      <Footer className={styles.stickyfooter} />
     </div>
-  )
-}
+  );
+};
 
 export default Layout

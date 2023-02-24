@@ -5,10 +5,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body >
+      {/* change body styles ? */}
+      <body>
         <Main />
         <NextScript />
-      </body>
+        </body>
     </Html>
   )
 }

@@ -1,0 +1,10 @@
+
+
+/* This code acts as the container for the sticky footer */
+.container {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+

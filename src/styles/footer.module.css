@@ -1,19 +1,8 @@
 
 
-/* container for footer
-        remove  border and background-color*/
+/* this fixes the sticky footer (margin-top: auto) */
 .footer__container {
-    display: flex;
-
+    margin-top: auto;
     border: 2px solid black;
     background-color: grey;
-
-    /* position: absolute; */
-    /* left: 0;
-    bottom: 0;
-    width: 100%; */
 }
-
-.footer {
-    margin-top: auto;
-  }
