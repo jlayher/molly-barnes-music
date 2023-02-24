@@ -1,0 +1,25 @@
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    border: solid black;
+}
+
+
+.header__logo_container {
+    display: flex;
+    align-items: center;
+
+}
+.music_home {
+    height: 150px;
+    width:200px;
+}
+
+.header__name {
+    display: flex;
+}
