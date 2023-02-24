@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div className={styles.container}>
       <Header />
       <main>{children}</main>
-      <Footer className={styles.stickyfooter} />
+      <Footer  />
     </div>
   );
 };
