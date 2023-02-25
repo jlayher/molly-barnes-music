@@ -23,6 +23,8 @@ const Header = () => {
           <p>Professor of Musicology</p>
           <p>Music Instructor</p>
           <p>Performer</p>
+          <p>&</p>
+          <p>She's a Molly ;b</p>
         </div>
 
       </div>

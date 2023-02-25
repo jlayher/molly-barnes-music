@@ -23,10 +23,8 @@ const PrivateLessons = () => {
         Currently I teach private lessons
         in piano and violin, in-home and in-studio, through Skylark Music School
         in Chapel Hill.
-        <br/>
-        <br/>
-        For more information about Skylark, please visit
-        <a href="https://www.skylarkmusicschool.com">https://www.skylarkmusicschool.com</a>
+        For more information about Skylark, please visit 
+        <a href="https://www.skylarkmusicschool.com"> https://www.skylarkmusicschool.com</a>
       </p>
     </Layout>
   );
