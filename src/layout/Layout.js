@@ -8,8 +8,10 @@ import styles from '@/styles/layout.module.css'
 const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
-      <Header />
-      <main>{children}</main>
+      <div className={styles.page_padding}>
+        <Header />
+        <main>{children}</main>
+      </div>
       <Footer  />
     </div>
   );

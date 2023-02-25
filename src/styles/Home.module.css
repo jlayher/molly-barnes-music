@@ -1,8 +1,19 @@
 
+.home__flex_container {
+  display: flex;
+  flex-direction: column;
 
+}
 
+.home__flex_container_item {
+  
+}
 
-
+/* .home__full_aboutme_text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}  */
 
 
 

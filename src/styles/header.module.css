@@ -7,6 +7,7 @@
 
     width: 100%;
     border: solid black;
+    margin-top: 15px;
 }
 
 
@@ -15,10 +16,12 @@
     align-items: center;
 
 }
-.music_home {
+
+/* Image for music icon on nav */
+/* .music_home {
     height: 150px;
     width:200px;
-}
+} */
 
 .header__name {
     display: flex;
