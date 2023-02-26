@@ -21,8 +21,7 @@ const Header = () => {
         <div>
           <h1 className={styles.header__name}>Dr. Molly Barnes</h1>
           <p>Professor of Musicology</p>
-          <p>Music Instructor</p>
-          <p>Performer</p>
+
 
         </div>
 

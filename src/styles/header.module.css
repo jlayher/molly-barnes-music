@@ -8,6 +8,9 @@
     width: 100%;
     border: solid black;
     margin-top: 15px;
+
+    padding: 10px 70px 10px 70px;
+
 }
 
 
@@ -25,4 +28,5 @@
 
 .header__name {
     display: flex;
+    font-size: 48px;
 }
