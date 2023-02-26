@@ -27,35 +27,30 @@ export default function Home() {
           <div className={styles.home__body_container}>
             
             {/* Identity Container (photo and qualifications) */}
-            <div className={styles.home__identity_container}>
+            <div className={styles.home__id_container}>
               
               {/* Profile Image Container */}
-              <div className={styles.home__profile_image_container}>
+              <div className={styles.home__id_container_image}>
                 <Image
                   src={profileImg}
                   alt="site logo"
-                  className={styles.music_home}
                 />
               </div>
 
               {/* Container for Profile Card */}
-              <div className={styles.home__profile_card}>
+              <div className={styles.home__id_container_card}>
                 <h3>Dr. Molly Barnes</h3>
                 <p>Professor of Musicology</p>
                 <p>Violin & Piano Instructor</p>
                 <p>Professional Performer</p>
-
               </div>
+
             </div>
 
-            {/* Title for Page */}
-            {/* <div className={styles.home__title_container}>
-            <h1 className={styles.home__title_container_item}>
-              About Molly Barnes
-            </h1>
-          </div> */}
+            {/* Title for Page ( About Molly Barnes*/}
+            {/* <div className={styles.home__title_container}>About Molly Barnes</div> */}
 
-            {/* About me Text: Centered in bottom of page */}
+            {/* About me Text */}
             <div className={styles.home__full_aboutme_text}>
               Welcome! I am a music scholar, teacher, and musician currently
               based in Chapel Hill, NC.

@@ -1,18 +1,4 @@
 
-
-
-.home__title_container {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0px 10px 0px;
-  /* background-color: #fff; */
-}
-
-
-.home__title_container_item {
-  font-size: 36px;
-}
-
 .home__body_container {
   display: flex;
 
@@ -21,17 +7,53 @@
 }
 
 
-.home__full_aboutme_text {
-  font-size: 24px;
-  padding: 35px;
-  margin-bottom: 20px;
+/* Contains the Image and Professional Text on Left side */
+.home__id_container {
+  background-color: bisque;
+  /* border: 2px solid black; */
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-right: 10px;
+
+  /* gradient generated with cssmatic.com */
+  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 }
 
-
-.home__profile_image_container img {
+/* Profile Image */
+.home__id_container_image img {
   height: 600px;
   width: 400px;
   padding: 2px;
-  margin: 32px 22px 22px 0px;
+  margin: 12px 12px 12px 12px;
   border-radius: 25px;
 }
+
+/* ID Card Info Container */
+.home__id_container_card {
+  display: flex;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Title Container (About Me) */
+/* .home__title_container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+  background-color: #fff;
+} */
+
+
+/* About me Text */
+.home__full_aboutme_text {
+  font-size: 25px;
+  /* padding: 35px; */
+  margin: 15px 0px 0px 20px;
+  margin-bottom: 0px;
+}
+
+
