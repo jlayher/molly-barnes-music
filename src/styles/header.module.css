@@ -5,11 +5,16 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
-    border: solid black;
-    margin-top: 15px;
+    /* border: solid black; */
+    /* background-color: black;
+    color: beige; */
 
-    padding: 10px 70px 10px 70px;
+    width: 100%;
+    /* margin-top: 25px; */
+    padding: 40px 70px 20px 70px;
+
+
+    text-shadow: 3px 2px 5px rgba(0,0,0,0.25);
 
 }
 

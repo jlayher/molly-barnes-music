@@ -17,7 +17,7 @@
   display: flex;
 
   /* background-color: #fff; */
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 
@@ -29,9 +29,9 @@
 
 
 .home__profile_image_container img {
-  height: 300px;
-  width: 200px;
+  height: 600px;
+  width: 400px;
   padding: 2px;
-  margin: 32px 22px 22px 22px;
+  margin: 32px 22px 22px 0px;
   border-radius: 25px;
 }

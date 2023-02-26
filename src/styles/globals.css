@@ -12,13 +12,25 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(128, 85, 85);
+  /* background-color: rgb(128, 85, 85); */
+
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 55%, rgba(43, 24, 24, 0.88) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 55%, rgba(43, 24, 24, 0.88) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 55%, rgba(43, 24, 24, 0.88) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 55%, rgba(43, 24, 24, 0.88) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 0%, rgba(43, 24, 24, 0.88) 100%);
 
 }
-
-
-
-
 
 
 
