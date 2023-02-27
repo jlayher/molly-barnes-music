@@ -39,12 +39,12 @@ export default function Home() {
               </div>
 
               {/* Container for Profile Card */}
-              <div className={styles.home__id_container_card}>
+              {/* <div className={styles.home__id_container_card}>
                 <h3>Dr. Molly Barnes</h3>
                 <p>Professor of Musicology</p>
                 <p>Violin & Piano Instructor</p>
                 <p>Professional Performer</p>
-              </div>
+              </div> */}
 
             </div>
 
@@ -54,7 +54,7 @@ export default function Home() {
             <div className={styles.home__full_aboutme_text}>
               
             {/* Title for Page ( About Molly Barnes*/}
-              <div className={styles.home__title_container}>About Molly Barnes</div>
+              <div className={styles.home__title_container}>About Molly</div>
               
               Welcome! I am a music scholar, teacher, and musician currently
               based in Chapel Hill, NC.

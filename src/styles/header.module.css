@@ -36,3 +36,9 @@
     font-size: 52px;
     padding-top: 10px;
 }
+
+.header__subtitle {
+    display: flex;
+    font-size: 22px;
+    padding-left: 20px;;
+}

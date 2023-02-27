@@ -6,13 +6,14 @@
 
 /* Contains the Image and Professional Text on Left side */
 .home__id_container {
+  display: inline-flex;
 
   /* background beige or bisque??? */
   background-color: beige;
   border-radius: 12px;
   margin-top: 5px;
   margin-right: 25px;
-  max-height: 730px;
+  max-height: 625px;
 
 
   /* gradient generated with cssmatic.com */
@@ -23,6 +24,7 @@
 
 /* Profile Image */
 .home__id_container_image img {
+  display: inline-flex;
   height: 600px;
   width: 400px;
   padding: 2px;
@@ -43,11 +45,10 @@
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  font-size: 38px;
+  font-size: 44px;
   font-weight: 400;
   margin: 0px 0px 20px 0px;
   text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
-  /* background-color: #fff; */
 }
 
 
