@@ -1,19 +1,17 @@
 
 .home__body_container {
   display: flex;
-
-  /* background-color: #fff; */
-  /* border: 2px solid black; */
 }
 
 
 /* Contains the Image and Professional Text on Left side */
 .home__id_container {
   background-color: bisque;
-  /* border: 2px solid black; */
   border-radius: 12px;
   margin-top: 5px;
-  margin-right: 10px;
+  margin-right: 25px;
+  max-height: 730px;
+
 
   /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -40,20 +38,31 @@
 
 
 /* Title Container (About Me) */
-/* .home__title_container {
+.home__title_container {
   display: flex;
   justify-content: center;
-  margin: 10px 0px 10px 0px;
-  background-color: #fff;
-} */
+  padding-top: 10px;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0px 0px 20px 0px;
+  text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
+  /* background-color: #fff; */
+}
 
 
 /* About me Text */
 .home__full_aboutme_text {
   font-size: 25px;
-  /* padding: 35px; */
-  margin: 15px 0px 0px 20px;
+  padding: 5px 60px 20px 60px;
   margin-bottom: 0px;
+  background-color: bisque;
+  border-radius: 25px;
+  /* gradient generated with cssmatic.com */
+  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 }
+
+
 
 

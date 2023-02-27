@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Layout from "@/layout/Layout";
 
+
 // import profile image
 import profileImg from "../../public/molly_purple_upper.jpg";
 
@@ -47,11 +48,14 @@ export default function Home() {
 
             </div>
 
-            {/* Title for Page ( About Molly Barnes*/}
-            {/* <div className={styles.home__title_container}>About Molly Barnes</div> */}
+           
 
             {/* About me Text */}
             <div className={styles.home__full_aboutme_text}>
+              
+            {/* Title for Page ( About Molly Barnes*/}
+              <div className={styles.home__title_container}>About Molly Barnes</div>
+              
               Welcome! I am a music scholar, teacher, and musician currently
               based in Chapel Hill, NC.
               <br />

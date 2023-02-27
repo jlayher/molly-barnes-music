@@ -4,6 +4,8 @@ import React from 'react'
 const AcademicTeaching = () => {
   return (
     <Layout>
+      {/* create a container for the page */}
+      {/* create a container for Academic teaching and show on left */}
       <h1>Academic Teaching</h1>
       <p>
         I consider teaching music a passion and a calling, and I love getting to
@@ -20,8 +22,12 @@ const AcademicTeaching = () => {
         music history and musicianship classes at Durham University,
         UNC-Greensboro, and UNC-Chapel Hill can be viewed by HERE.
       </p>
+
+      {/* remove breaks */}
       <br/>
-      <br/>
+      <br />
+      
+      {/* create a container for Research and show to the right */}
       <h1>Research</h1>
       <p>
         My research primarily concerns issues of musical taste and the formation
