@@ -6,7 +6,9 @@
 
 /* Contains the Image and Professional Text on Left side */
 .home__id_container {
-  background-color: bisque;
+
+  /* background beige or bisque??? */
+  background-color: beige;
   border-radius: 12px;
   margin-top: 5px;
   margin-right: 25px;
@@ -31,7 +33,6 @@
 /* ID Card Info Container */
 .home__id_container_card {
   display: flex;
-  /* background-color: aquamarine; */
   flex-direction: column;
   align-items: center;
 }
@@ -55,7 +56,7 @@
   font-size: 25px;
   padding: 5px 60px 20px 60px;
   margin-bottom: 0px;
-  background-color: bisque;
+  background-color: beige;
   border-radius: 25px;
   /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
