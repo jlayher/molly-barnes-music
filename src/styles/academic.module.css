@@ -75,6 +75,7 @@
 .academic__body_text_teaching p {
     font-size: 26px;
     padding: 15px;
+    line-height: 32px;
 }
 
 .academic__body_text_research h1 {
@@ -85,4 +86,5 @@
 .academic__body_text_research p {
     font-size: 26px;
     padding: 15px;
+    line-height: 32px;
 }

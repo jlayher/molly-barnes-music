@@ -55,12 +55,18 @@ const AcademicTeaching = () => {
             <p>
               My research primarily concerns issues of musical taste and the
               formation of cultural hierarchies in the West during the nineteenth
-              century. My current book project (based on my PhD dissertation),
+              century.
+              <br />
+              <br />
+              My current book project (based on my PhD dissertation),
               tentatively titled Old World Harmony, New World Democracy: American
               Idealism and the European Musical Inheritance, 1830-1870, explores
               mid-nineteenth-century American perceptions of the relationship
               between Western art music and the ideal of democratic
-              egalitarianism. Other research interests include the musical culture
+              egalitarianism.
+              <br />
+              <br />
+              Other research interests include the musical culture
               of German immigrants to the United States in the nineteenth century;
               music and social theory in the twentieth century, particularly the
               thought of Adorno and the Frankfurt School; 1960s psychedelic music
