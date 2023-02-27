@@ -3,14 +3,22 @@
 /* this fixes the sticky footer (margin-top: auto) */
 .footer__container {
     margin-top: auto;
-    /* border: 2px solid black; */
-    /* background-color: grey; */
+    border: 2px solid black;
+    background-color: beige;
     display: flex;
     text-align: center;
     justify-content: space-around;
 
+    border-top-left-radius: 82px ;
+    border-top-right-radius: 2px ;
+    border-bottom-left-radius: 6px;
     line-height: 35px;
 
-    padding: 45px 150px 25px 150px;
+    /* changed padding to be slightly offset.  Right greater than left */
+        /* previously 45 150 25 150 */
+    padding: 25px 190px 35px 110px;
 
+    -webkit-box-shadow: -6px -4px 26px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: -6px -4px 26px -4px rgba(0,0,0,0.57);
+    box-shadow: -6px -4px 26px -4px rgba(0,0,0,0.57);
 }

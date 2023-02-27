@@ -9,8 +9,9 @@
 }
 
 .link { 
-    color: rgb(177, 132, 18);
+    color: rgb(171, 138, 54);
     font-size: 28px;
-    margin-right: 6px; 
+    font-weight: 600;
+    margin-right: 18px; 
 }
 

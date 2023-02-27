@@ -1,6 +1,8 @@
 import Layout from "@/layout/Layout";
 import React from "react";
 
+import TestimonialBar from "@/components/TestimonialBar";
+
 import styles from "@/styles/academic.module.css";
 
 const AcademicTeaching = () => {
@@ -11,6 +13,14 @@ const AcademicTeaching = () => {
 
       {/* Content Container for Cards */}
       <div className={styles.academic__body_container}>
+        
+
+        {/* Side Panel for Testimonials */}
+        <TestimonialBar >
+          Hello
+        </TestimonialBar>
+
+        {/* Container for Academic Teaching and Research Cards */}
         <div className={styles.academic__body_text_container}>
           
 

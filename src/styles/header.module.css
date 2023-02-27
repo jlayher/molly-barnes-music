@@ -33,5 +33,6 @@
 
 .header__name {
     display: flex;
-    font-size: 48px;
+    font-size: 52px;
+    padding-top: 10px;
 }
