@@ -13,27 +13,28 @@ const Footer = () => {
       <div className={[styles.footer__section_container, styles.footer__section_container_private]}>
         <h3>Contact Me Directly</h3>
         <span>Email: </span>
-          <a href="mailto: molly.l.barnes@gmail.com">Molly.L.Barnes@gmail.com</a>
+          <a href="mailto: molly.l.barnes@gmail.com" className={styles.footer__section_container_anchors}>Molly.L.Barnes@gmail.com</a>
       </div>
 
       {/* this contains the Private Lesson/Company Links */}
       <div className={[styles.footer__section_container, styles.footer__section_container_private]}>
         <h3>Private Lessons from Skylark Music School</h3>
         <span>Contact Number: </span>
-          <a href="tel: 9192059849">(919) 205-9849</a>
+        <a href="tel: 9192059849" className={styles.footer__section_container_anchors}>(919) 205-9849</a>
           <br />
         <span>Website: </span>
-          <a href="https://www.skylarkmusicschool.com/"> Skylark Music School</a>
+          <a href="https://www.skylarkmusicschool.com/" className={styles.footer__section_container_anchors}> Skylark Music School</a>
           <br />
         <span>Email: </span>
-          <a href="mailto: info@skylarkmusicschool.com">info@skylarkmusicschool.com</a>
+          <a href="mailto: info@skylarkmusicschool.com" className={styles.footer__section_container_anchors}>info@skylarkmusicschool.com</a>
       </div>
 
       {/* this contains the Dowload Links */}
       <div className={[styles.footer__section_container, styles.footer__section_container_private]}>
         <h3>Downloads</h3>
-        <p>CV</p>
-        <p>Article Download</p>
+        <a href='' className={styles.footer__section_container_anchors}>CV</a>
+        <br/>
+        <a href='' className={styles.footer__section_container_anchors}>Article Download</a>
       </div>
 
       {/* this contains the Copyright Info */}

@@ -134,26 +134,21 @@ export const UncGreensboroData = [
   },
   {
     id: "g13",
-    text: "",
-    course: "(History of Western Music 1750-Present)",
-  },
-  {
-    id: "g14",
     text: "Dr. Barnes is so open for questions and comments! It's amazing how much she connects with her students. I've never seen a teacher as thoughtful about responding to students. I hope to be like her when I teach!",
     course: "(History of Western Music 1750-Present)",
   },
   {
-    id: "g15",
+    id: "g14",
     text: "I cannot express how thankful I am for having such high expectations from her class. I never thought I would learn so much about music history within two mere semesters of having her as a teacher! Because of Dr. Barnes, I can say I feel somewhat confident teaching music history when I go out into the schools because of her impeccable communication skills and belief in her students.",
     course: "(History of Western Music 1750-Present)",
   },
   {
-    id: "g16",
+    id: "g15",
     text: "I think Dr. Barnes is incredibly valuable to the music history program and UNCG as a whole!",
     course: "(History of Western Music 1750-Present)",
   },
   {
-    id: "g17",
+    id: "g16",
     text: "Dr. Barnes is an amazing instructor who needs to teach at this institution as a full time professor. She is one of the best professors I have had at UNCG and she is passionate about her subject which encourages her students to learn. Also, she actually knows how to teach to the students and changes her teaching strategy to best help her students learn and maintain the material after the class ends. I hope to have her as my professor again!",
     course: "(History of Western Music 1750-Present)",
   },

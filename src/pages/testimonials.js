@@ -1,8 +1,11 @@
 import React from 'react'
 import Layout from '@/layout/Layout'
 import { DurhamUniversityData, UncGreensboroData, UncChapelHillData } from '@/constants/testimonials'
-import TestCard from '@/components/Body-Components/TestCard'
+// import TestCard from '@/components/Body-Components/TestCard'
+import TestimonialCard from '@/components/Body-Components/TestimonialCard'
 
+
+import styles from '@/styles/testimonials.module.css'
 
 const Testimonials = () => {
 
@@ -13,51 +16,40 @@ const Testimonials = () => {
 
   return (
     <Layout>
-      <h1>
-        Testimonials Page
-      </h1>
-      {/* Start with Durham being fetched and displayed by default */}
-      {/* Durham University, UNC-Greensboro, UNC-Chapel Hill Buttons */}
-      {/* on button click, loop over data for testimonials at specified location */}
-
-      {/* map over the data in the durham array, and generate a card for each, passing the text and the course */}
-      <div>
-        {durham.map(({ id, text, course }) => (
-          <>
-          <p>{text}</p>
-          <p>{course}</p>
-          </>
-        ))}
+      <div className={styles.testimonials__title}>Testimonials</div>
+    
+      <div className={styles.testimonials__blurb}>
+        Explaining that these are testimonials from previous students.  List the 3 institutions and say something that throws in some personality
       </div>
 
-      {/* map over greensboro array */}
-      <div>
-        {greensboro.map(({ id, text, course }) => (
-          <>
-          <p>{text}</p>
-          <p>{course}</p>
-          </>
-        ))}
-      </div>
+      <div className={styles.testimonials__container}>
+        <div>
+          <h1>Durham</h1>
+          {durham.map(({ id, text, course }) => (
+            <TestimonialCard text={text} course={course}>
+            </TestimonialCard>
+          ))}
+        </div>
 
-      {/* map over greensboro array */}
-      <div>
-        {chapelhill.map(({ id, text, course }) => (
-          <>
-          <p>{text}</p>
-          <p>{course}</p>
-          </>
-        ))}
+        {/* <div>
+          <h1>Greensboro</h1>
+          {greensboro.map(({ id, text, course }) => (
+            <TestimonialCard text={text} course={course}>
+            </TestimonialCard>
+          ))}
+        </div>
+
+        <div>
+          <h1>Chapel Hill</h1>
+          {chapelhill.map(({ id, text, course }) => (
+            <TestimonialCard text={text} course={course}>
+            </TestimonialCard>
+          ))}
+        </div> */}
       </div>
       
-      <TestCard>
-
-      </TestCard>
-
-      {/* create 3 buttons.  One for each array of testimonials. */}
-      {/* onClick these buttons should route to the page of the specific testimonial? */}
       
-    { }
+
     </Layout>
 
   )
