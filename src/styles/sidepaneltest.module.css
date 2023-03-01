@@ -1,0 +1,36 @@
+
+.sidepanel__container {
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    border-radius: 18px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* gradient generated with cssmatic.com */
+    -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+}
+
+.sidepanel__container_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    padding: 0px 30px 10px 30px;
+
+    text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
+}
+
+.sidepanel__container_course {
+    font-size: 28px;
+    font-style: italic;
+}

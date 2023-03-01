@@ -16,21 +16,21 @@
     background-color: beige;
 
       /* gradient generated with cssmatic.com */
-  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  }
+    -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+}
 
 .academic__body_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
 .academic__body_text_container {
     display: flex;
     flex-direction: column;
-    
+    max-width: 65%;
 }
 
 
@@ -42,26 +42,10 @@
     background-color: beige;
     border-radius: 12px;
     padding: 10px;
-    max-width: 65%;
+
     margin-top: 10px;
 
 /* gradient generated with cssmatic.com */
-    -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-    -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-    box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-}
-
-.academic__body_text_research {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: beige;
-    border-radius: 12px;
-    padding: 10px;
-    max-width: 65%;
-
-      /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -78,6 +62,23 @@
     line-height: 32px;
 }
 
+
+.academic__body_text_research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: beige;
+    border-radius: 12px;
+    padding: 10px;
+
+
+      /* gradient generated with cssmatic.com */
+    -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+}
+
 .academic__body_text_research h1 {
     font-size: 30px;
     padding-top: 10px;
@@ -87,4 +88,16 @@
     font-size: 26px;
     padding: 15px;
     line-height: 32px;
+}
+
+.academic__body_sidepanel_container {
+    display: flex;
+   
+
+    margin: 10px 0px 0px 30px;
+
+    width: 100%;
+
+    
+
 }

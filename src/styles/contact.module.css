@@ -56,7 +56,7 @@
 
 
 .contact__body_text a {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 22px;
 }
 
@@ -71,4 +71,10 @@
 .contact__body_item { 
     font-size: 28px;
     padding: 10px 0px 10px 0px;
+}
+
+.contact__body_item_downloads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
