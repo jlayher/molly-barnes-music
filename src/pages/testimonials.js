@@ -18,18 +18,23 @@ const Testimonials = () => {
     <Layout>
       <div className={styles.testimonials__title}>Testimonials</div>
     
-      <div className={styles.testimonials__blurb}>
+      {/* <div className={styles.testimonials__blurb}>
         Explaining that these are testimonials from previous students.  List the 3 institutions and say something that throws in some personality
-      </div>
+      </div> */}
 
-      <div className={styles.testimonials__container}>
-        <div>
-          <h1>Durham</h1>
+      {/* <div className={styles.testimonials__container}> */}
+
+      {/* Testing out Grid Functionality with new Div class on durham */}
+
+
+      <div className={styles.testimonials__grid_container}>
+          {/* <h1>Durham</h1> */}
           {durham.map(({ id, text, course }) => (
             <TestimonialCard text={text} course={course}>
             </TestimonialCard>
           ))}
-        </div>
+      </div>
+
 
         {/* <div>
           <h1>Greensboro</h1>
@@ -46,7 +51,7 @@ const Testimonials = () => {
             </TestimonialCard>
           ))}
         </div> */}
-      </div>
+      {/* </div> */}
       
       
 

@@ -2,15 +2,13 @@ import React from 'react'
 import { DurhamUniversityData, UncGreensboroData, UncChapelHillData } from '@/constants/testimonials'
 
 
-const TestCard = ({text, course}) => {
+const SidepanelTest = ({text, course}) => {
   return (
     <div>
-      {/* Text */}
-      <p>{text}</p>
-      {/* Course */}
-      <p>{course}</p>
+      <p>Hello Text{text}</p>
+      <p>Hello Course{course}</p>
     </div>
   )
 }
 
-export default TestCard
+export default SidepanelTest

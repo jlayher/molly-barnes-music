@@ -4,6 +4,7 @@ import React from "react";
 import TestimonialBar from "@/components/TestimonialBar";
 
 import styles from "@/styles/academic.module.css";
+import SidepanelTest from "@/components/Body-Components/SidepanelTest";
 
 const AcademicTeaching = () => {
   return (
@@ -16,9 +17,7 @@ const AcademicTeaching = () => {
         
 
         {/* Side Panel for Testimonials */}
-        <TestimonialBar >
-          Hello
-        </TestimonialBar>
+        <SidepanelTest></SidepanelTest>
 
         {/* Container for Academic Teaching and Research Cards */}
         <div className={styles.academic__body_text_container}>
