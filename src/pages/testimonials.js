@@ -33,25 +33,26 @@ const Testimonials = () => {
             <TestimonialCard text={text} course={course}>
             </TestimonialCard>
           ))}
-      </div>
+      {/* </div> */}
 
 
-        {/* <div>
-          <h1>Greensboro</h1>
+
+      {/* <div className={styles.testimonials__grid_container}> */}
+          {/* <h1>Greensboro</h1> */}
           {greensboro.map(({ id, text, course }) => (
             <TestimonialCard text={text} course={course}>
             </TestimonialCard>
           ))}
-        </div>
+        {/* </div> */}
 
-        <div>
-          <h1>Chapel Hill</h1>
+        {/* <div className={styles.testimonials__grid_container}> */}
+          {/* <h1>Chapel Hill</h1> */}
           {chapelhill.map(({ id, text, course }) => (
             <TestimonialCard text={text} course={course}>
             </TestimonialCard>
           ))}
-        </div> */}
-      {/* </div> */}
+        {/* </div> */}
+      </div>
       
       
 

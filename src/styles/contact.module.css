@@ -24,19 +24,20 @@
 
   .contact__body_container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: center; */
+    justify-content: center;
 
 }
 
 .contact__body_text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 
     background-color: beige;
     border-radius: 12px;
     padding: 10px;
-    max-width: 65%;
+    /* max-width: 65%; */
     margin-top: 10px;
 
 /* gradient generated with cssmatic.com */
@@ -46,13 +47,28 @@
 }
 
 
-.contact__body_text p {
-    font-size: 26px;
+.contact__body_text  {
+    font-size: 32px;
     padding: 15px;
-    line-height: 32px;
+    line-height: 22px;
+    display: flex;
 }
 
+
 .contact__body_text a {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.contact__body_titles {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 10px 0px;
+}
+
+.contact__body_item { 
+    font-size: 28px;
+    padding: 10px 0px 10px 0px;
 }
