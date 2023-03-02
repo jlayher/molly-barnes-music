@@ -49,7 +49,7 @@
 
 .contact__body_text  {
     font-size: 32px;
-    padding: 15px;
+    padding: 45px;
     line-height: 22px;
     display: flex;
 }
@@ -64,8 +64,8 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    padding: 20px 0px 20px 0px;
-    margin: 20px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .contact__body_item { 
