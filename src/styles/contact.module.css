@@ -69,12 +69,15 @@
 }
 
 .contact__body_item { 
+    display: flex;
+    justify-content: center;
     font-size: 28px;
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
 }
 
 .contact__body_item_downloads {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0px 10px 0px;
 }

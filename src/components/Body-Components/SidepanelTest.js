@@ -1,16 +1,28 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { DurhamUniversityData, UncGreensboroData, UncChapelHillData } from '@/constants/testimonials'
 
 import styles from '@/styles/sidepaneltest.module.css'
 
 
-//may need to put logic in parent??
+//having promise error.  need to fetch data immediately when this component loads (onInit or useEffect?)
+  //useEffect a function that fetches the data for the best array items, then the create random number function runs, then using that random number, display the selected testimonial item
 
 
 const SidepanelTest = ({ text, course }) => {
   
+// getting hydration error.  Likely need to do some async
+  
+  //useEffect Hook
+
+
+  //setTimeout(() =>)
 
   // replace testimonials value with best quotes array (make best quotes array)
+
+  // useEffect(() => {
+
+  //   }
+  // )
   const testimonials = DurhamUniversityData;
 
   const createRandomNum = Math.floor((Math.random() * testimonials.length));
@@ -19,16 +31,13 @@ const SidepanelTest = ({ text, course }) => {
   // const [num, setNum] = useState(createRandomNum);
 
 
-
-  // console.log(testimonials);
-
   // create a function that calls createRandomNum every 4 seconds
   
 
 
   return (
     <div className={styles.sidepanel__container}>
-      <p className={styles.sidepanel__container_text}>{testimonials[createRandomNum].text}</p>
+      <p className={styles.sidepanel__container_text}>"{testimonials[createRandomNum].text}"</p>
       <p className={styles.sidepanel__container_course}>{testimonials[createRandomNum].course}</p>
     </div>
   )

@@ -8,9 +8,10 @@ const Contact = () => {
 
       <div>
         <h3>Downloads</h3>
-        <a href="">CV Download</a>
+        <a href="../../public/barnes_the_other_otto_dresel_ncmr.pdf">CV Download</a>
         <a href="">PDF For Article</a>
       </div>
+      <iframe src="../../public/barnes_the_other_otto_dresel_ncmr.pdf"></iframe>
     </Layout>
   );
 };
