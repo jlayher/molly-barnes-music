@@ -6,6 +6,9 @@
 
 } */
 
+.testcard__grid {
+  display: flex;
+}
 
 .testcard__body_text {
     display: flex;
@@ -20,6 +23,7 @@
     /* margin: 5px; */
     padding: 20px;
     /* max-width: 35%; */
+    /* max-height: 250px; */
 
 
       /* gradient generated with cssmatic.com */

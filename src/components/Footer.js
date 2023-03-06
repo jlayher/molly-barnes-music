@@ -32,14 +32,10 @@ const Footer = () => {
       {/* this contains the Dowload Links */}
       <div className={[styles.footer__section_container, styles.footer__section_container_private]}>
         <h3>Downloads</h3>
-        <a href="" className={styles.footer__section_container_anchors} download="barnes_the_other_otto_dresel_ncmr.pdf"
-        
-        >CV
-        
-        </a>
+        <a href="barnes_the_other_otto_dresel_ncmr.pdf" className={styles.footer__section_container_anchors} download="barnes_the_other_otto_dresel_ncmr.pdf">CV</a>
         
         <br/>
-        <a href='' className={styles.footer__section_container_anchors}>Article Download</a>
+        <a href="barnes_the_other_otto_dresel_ncmr.pdf" className={styles.footer__section_container_anchors} download="barnes_the_other_otto_dresel_ncmr.pdf">Article Download</a>
       </div>
 
       {/* this contains the Copyright Info */}

@@ -38,14 +38,6 @@ export default function Home() {
                 />
               </div>
 
-              {/* Container for Profile Card */}
-              {/* <div className={styles.home__id_container_card}>
-                <h3>Dr. Molly Barnes</h3>
-                <p>Professor of Musicology</p>
-                <p>Violin & Piano Instructor</p>
-                <p>Professional Performer</p>
-              </div> */}
-
             </div>
 
            
