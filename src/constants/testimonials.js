@@ -1,25 +1,5 @@
 export const DurhamUniversityData = [
   {
-    id: "d1",
-    text: "Molly always provided fresh takes from contemporary musicological writers that always had me intrigued. Loved the focus on class/gender/race roles in people that supported great composers of the centuries as well as the composers themselves.",
-    course: "(Historical Studies I)",
-  },
-  {
-    id: "d2",
-    text: "The seminars were thought provoking. The leadership by the lecturer instilled confidence in us to share our views and generated an interesting discussion.",
-    course: "(Historical Studies I)",
-  },
-  {
-    id: "d3",
-    text: "The lecturer is very good at explaining things clearly and always answers questions well. The module was very interesting in giving an overview of music history and I felt like I learned lots from doing the essays.",
-    course: "(Historical Studies I)",
-  },
-  {
-    id: "d4",
-    text: "The lecturer is very passionate about her subject and that helped to make the lectures interesting, engaging and exciting.",
-    course: "(Historical Studies I)",
-  },
-  {
     id: "d5",
     text: "Without a doubt, this has been my favourite module during my time at Durham so far. This is due to interesting content, however for the most part this is due to the quality of Dr. Barnes' teaching; seminars employing a debate format, requiring students to work in teams together, were my favourite part of my degree so far.",
     course: "(Historical Studies 2)",
@@ -50,6 +30,11 @@ export const DurhamUniversityData = [
     course: "(Historical Studies 2)",
   },
   {
+    id: "d13",
+    text: "Molly Barnes is an outstanding lecturer: informative, passionate, and keen to help her students in times of stress.",
+    course: "(Historical Studies 2)",
+  },
+  {
     id: "d11",
     text: "Molly makes the module so interesting and teaches so well. She offers so much help and support and goes above and beyond compared to nearly every other lecturer I have had.",
     course: "(Historical Studies 2)",
@@ -59,11 +44,7 @@ export const DurhamUniversityData = [
     text: "Very thorough exploration of module topics. Very well explained, and feedback was always prompt. Professor always responded to emails promptly, and gave very good explanations.",
     course: "(Historical Studies 2)",
   },
-  {
-    id: "d13",
-    text: "Molly Barnes is an outstanding lecturer: informative, passionate, and keen to help her students in times of stress.",
-    course: "(Historical Studies 2)",
-  },
+
   {
     id: "d14",
     text: "Molly. Barnes. Is. Incredible. By far my favourite module. Everything is always so consistent and standardized. I feel so safe in the classroom and motivated to learn. The slides that Molly makes are a fantastic asset when it comes to revision and essays and it's one of my only lectures where I have felt a certain engagement. Molly is always great on emails and has been beyond understanding in so many circumstances whilst setting clear boundaries for expectations.",
@@ -132,21 +113,26 @@ export const UncGreensboroData = [
     text: "Dr. Barnes is one of the best professors in the music department.",
     course: "(History of Western Music 1750-Present)",
   },
+
   {
     id: "g13",
     text: "Dr. Barnes is so open for questions and comments! It's amazing how much she connects with her students. I've never seen a teacher as thoughtful about responding to students. I hope to be like her when I teach!",
     course: "(History of Western Music 1750-Present)",
   },
+  
   {
     id: "g14",
     text: "I cannot express how thankful I am for having such high expectations from her class. I never thought I would learn so much about music history within two mere semesters of having her as a teacher! Because of Dr. Barnes, I can say I feel somewhat confident teaching music history when I go out into the schools because of her impeccable communication skills and belief in her students.",
     course: "(History of Western Music 1750-Present)",
   },
+  
   {
     id: "g15",
     text: "I think Dr. Barnes is incredibly valuable to the music history program and UNCG as a whole!",
     course: "(History of Western Music 1750-Present)",
   },
+  
+  
   {
     id: "g16",
     text: "Dr. Barnes is an amazing instructor who needs to teach at this institution as a full time professor. She is one of the best professors I have had at UNCG and she is passionate about her subject which encourages her students to learn. Also, she actually knows how to teach to the students and changes her teaching strategy to best help her students learn and maintain the material after the class ends. I hope to have her as my professor again!",

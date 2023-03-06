@@ -8,13 +8,14 @@
 
 .testcard__grid {
   display: flex;
+
 }
 
 .testcard__body_text {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    justify-content: space-between; 
+    justify-content: center; 
   
     background-color: beige;
     border-radius: 12px;
@@ -37,7 +38,10 @@
 /* Create separate classes for the institution and course */
 
 .testcard__body_text_text {
+  display: flex;
   font-size: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .testcard__body_text_course {
