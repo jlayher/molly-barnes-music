@@ -21,7 +21,7 @@ export const DurhamUniversityData = [
   },
   {
     id: "d9",
-    text: "I really appreciated the dedication Dr Barnes had to giving us individual tutorials to discuss summative topics and formative feedback, as I know very few other module leaders would offer up an opportunity like that.",
+    text: "I really appreciated the dedication Dr. Barnes had to giving us individual tutorials to discuss summative topics and formative feedback, as I know very few other module leaders would offer up an opportunity like that.",
     course: "(Historical Studies 2)",
   },
   {
@@ -75,7 +75,7 @@ export const UncGreensboroData = [
   },
   {
     id: "g5",
-    text: "Although the expectations were high, Dr. Barnes offered help if we struggled and made sure we had a plan [for] how to accomplish our goals in the class.",
+    text: "Although the expectations were high, Dr. Barnes offered help if we struggled and made sure we had a plan for how to accomplish our goals in the class.",
     course: "(History of Western Music 1750-Present)",
   },
   {
@@ -113,25 +113,29 @@ export const UncGreensboroData = [
     text: "Dr. Barnes is one of the best professors in the music department.",
     course: "(History of Western Music 1750-Present)",
   },
-
+  {
+    id: "c4",
+    text: "Molly is an extremely effective, knowledgeable TA. She did a wonderful job teaching the class, and she really facilitated my learning of the material.",
+    course: "(Great Musical Works)",
+  },
   {
     id: "g13",
     text: "Dr. Barnes is so open for questions and comments! It's amazing how much she connects with her students. I've never seen a teacher as thoughtful about responding to students. I hope to be like her when I teach!",
     course: "(History of Western Music 1750-Present)",
   },
   
-  {
-    id: "g14",
-    text: "I cannot express how thankful I am for having such high expectations from her class. I never thought I would learn so much about music history within two mere semesters of having her as a teacher! Because of Dr. Barnes, I can say I feel somewhat confident teaching music history when I go out into the schools because of her impeccable communication skills and belief in her students.",
-    course: "(History of Western Music 1750-Present)",
-  },
+
   
   {
     id: "g15",
     text: "I think Dr. Barnes is incredibly valuable to the music history program and UNCG as a whole!",
     course: "(History of Western Music 1750-Present)",
   },
-  
+  {
+    id: "g14",
+    text: "I cannot express how thankful I am for having such high expectations from her class. I never thought I would learn so much about music history within two mere semesters of having her as a teacher! Because of Dr. Barnes, I can say I feel somewhat confident teaching music history when I go out into the schools because of her impeccable communication skills and belief in her students.",
+    course: "(History of Western Music 1750-Present)",
+  },
   
   {
     id: "g16",
@@ -156,11 +160,7 @@ export const UncChapelHillData = [
     text: "I loved the enthusiasm you showed for this class, the pieces we studied, and music in general. Seeing your passion for music really made me strive to understand and appreciate it more myself. You explained musical terms and background very well...I'm glad that you included other movements in art and major world affairs in your discussion of the music; it made clearer the context and times in which it was written. You graded everything really quickly (and fairly, perhaps even leniently), and I can't imagine the time it took…I think that overall your teaching abilities and methods are outstanding and I'm very glad that I had you as a TA...any music student would be very lucky to have you.",
     course: "(Great Musical Works)",
   },
-  {
-    id: "c4",
-    text: "Molly is an extremely effective, knowledgeable TA. She did a wonderful job teaching the class, and she really facilitated my learning of the material.",
-    course: "(Great Musical Works)",
-  },
+
   {
     id: "c5",
     text: "Great recitation teacher! The email availability is great, and very helpful. Really supportive when listening to student presentations and very engaged.",
