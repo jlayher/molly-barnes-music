@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "@/styles/privatelessons.module.css";
 
 
-import privateLessonsImage from "../../public/molly_violin_recital.jpg"
+import privateLessonsImage from "../../public/molly_violin_recital_better.jpg"
 
 const PrivateLessons = () => {
   return (

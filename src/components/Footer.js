@@ -34,7 +34,7 @@ const Footer = () => {
         {/* this contains the Dowload Links */}
         <div className={[styles.footer__section_container, styles.footer__section_container_private]}>
           <h3>Downloads</h3>
-          <a href="barnes_the_other_otto_dresel_ncmr.pdf" className={styles.footer__section_container_anchors} download="barnes_the_other_otto_dresel_ncmr.pdf">CV</a>
+          <a href="Barnes_CV_March_2023.pdf" className={styles.footer__section_container_anchors} download="Barnes_CV_March_2023.pdf">CV</a>
           
           <br/>
           <a href="barnes_the_other_otto_dresel_ncmr.pdf" className={styles.footer__section_container_anchors} download="barnes_the_other_otto_dresel_ncmr.pdf">Article Download</a>
@@ -42,19 +42,10 @@ const Footer = () => {
 
       </div>
 
-      
-
-
-
-
-
-{/* footer bottom for copyright
-      goal is to make copyright and links at bottom left */}
-
 
       {/* this contains the Copyright Info */}
       <div className={styles.footer__container_bottom}>
-        <div className={styles.footer__container_bottom_copyright}>&copy;2023 John Layher: &nbsp;Web Developer. &nbsp; All Rights Reserved </div>
+        <div className={styles.footer__container_bottom_copyright}>&copy;2023 John Layher: &nbsp;Web Developer,&nbsp; All Rights Reserved </div>
  
         <div className={styles.footer__container_bottom_links}>
           <span className={styles.footer__container_bottom_links}>Email: &nbsp;</span>
