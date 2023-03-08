@@ -27,6 +27,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .privatelessons__body_text {
@@ -63,9 +64,9 @@
     align-items: center;
     background-color: beige;
     border-radius: 12px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 125px;
-    max-height: 625px;
+    /* max-height: 625px; */
   
   
     /* gradient generated with cssmatic.com */
@@ -80,8 +81,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
-    width: 640px;
+    height: 650px;
+    width: 740px;
     padding: 2px;
     margin: 12px 12px 12px 12px;
     border-radius: 25px;
