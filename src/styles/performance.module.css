@@ -24,14 +24,15 @@
 
   .performance__body_container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 .performance__body_text {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column;
+    align-items: center; */
 
     background-color: beige;
     border-radius: 12px;
@@ -56,3 +57,37 @@
     font-size: 26px;
     line-height: 32px;
 }
+
+
+/* Contains the Image and Professional Text on Left side */
+.performance__body_image_container {
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-right: 30px;
+    /* margin-left: 125px; */
+    /* max-height: 625px; */
+  
+  
+    /* gradient generated with cssmatic.com */
+    -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+    box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  }
+  
+  /* privatelesson image */
+  .performance__body_image_container img {
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 727.5px;
+    width: 485px;
+    padding: 2px;
+    margin: 12px 12px 12px 12px;
+    border-radius: 25px;
+  }

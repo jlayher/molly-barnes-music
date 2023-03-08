@@ -25,18 +25,16 @@
   .privatelessons__body_container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
 .privatelessons__body_text {
     display: flex;
-    /* flex-direction: column;
-    align-items: center; */
-
     background-color: beige;
     border-radius: 12px;
     padding: 10px;
-    max-width: 55%;
+    max-width: 45%;
     margin-top: 10px;
 
 /* gradient generated with cssmatic.com */
@@ -59,8 +57,10 @@
 
 /* Contains the Image and Professional Text on Left side */
 .privatelessons__body_image_container {
-    display: inline-flex;
-  
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: beige;
     border-radius: 12px;
     margin-top: 5px;
@@ -77,6 +77,9 @@
   /* privatelesson image */
   .privatelessons__body_image_container img {
     /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 550px;
     width: 640px;
     padding: 2px;
