@@ -1,13 +1,10 @@
 import React, { useState, useEffect, use } from 'react'
 import { bestTestimonials } from '@/constants/besttestimonials'
-
 import styles from '@/styles/sidepaneltest.module.css'
-
 
 const testimonials = bestTestimonials;
 
-
-const SidepanelTest = ({ text, course }) => {
+const SidepanelTest = () => {
   
   const [randomData, setRandomData] = useState({});
 
@@ -19,7 +16,6 @@ const SidepanelTest = ({ text, course }) => {
   useEffect(() => {
     getRandomObject(testimonials);
   }, []);
-
 
   return (
     <div className={styles.sidepanel__container}>

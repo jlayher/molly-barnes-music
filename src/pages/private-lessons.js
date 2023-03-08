@@ -1,7 +1,10 @@
 import React from "react";
 import Layout from "@/layout/Layout";
-
+import Image from "next/image";
 import styles from "@/styles/privatelessons.module.css";
+
+
+import privateLessonsImage from "../../public/molly_violin_recital.jpg"
 
 const PrivateLessons = () => {
   return (
@@ -10,6 +13,7 @@ const PrivateLessons = () => {
 
       {/* body container */}
       <div className={styles.privatelessons__body_container}>
+        {/* text container */}
         <div className={styles.privatelessons__body_text}>
           <p>
             I have taught private violin lessons for many years, and my students
@@ -35,6 +39,15 @@ const PrivateLessons = () => {
             </a>
           </p>
         </div>
+        {/* image container */}
+
+        <div className={styles.privatelessons__body_image_container}>
+          <Image
+            src={privateLessonsImage}
+            alt="site logo"
+          />
+        </div>
+
       </div>
     </Layout>
   );
