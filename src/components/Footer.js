@@ -45,7 +45,7 @@ const Footer = () => {
 
       {/* this contains the Copyright Info */}
       <div className={styles.footer__container_bottom}>
-        <div className={styles.footer__container_bottom_copyright}>&copy;2023 John Layher: &nbsp;Web Developer,&nbsp; All Rights Reserved </div>
+        <div className={styles.footer__container_bottom_copyright}>&copy;2023 John Layher, &nbsp;Web Developer:&nbsp; All Rights Reserved </div>
  
         <div className={styles.footer__container_bottom_links}>
           <span className={styles.footer__container_bottom_links}>Email: &nbsp;</span>

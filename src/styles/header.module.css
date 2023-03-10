@@ -32,6 +32,34 @@
     padding-left: 20px;;
 }
 
-.header__nav_container {
+
+
+
+@media screen and (max-width: 1435px) {
+    .header__name {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header__nav_container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header__container {
+        margin: 0;
+        padding: 1px;;
+    }
+    .header__logo_container {
+        display: flex;
+        align-items: center;
+    }
 
 }

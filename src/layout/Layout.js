@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div className={styles.container}>
         <Header />
         <div className={styles.page_padding}>
-          <main>{children}</main>
+          {/* <main>{children}</main> */}
         </div>
       <Footer  />
     </div>

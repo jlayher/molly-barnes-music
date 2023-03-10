@@ -69,3 +69,9 @@ visibility: visible;
     font-size: 22px;   
 
 }
+
+@media screen and (max-width: 1435px) {
+    .dropdownlink__link {
+        font-size: 22px;
+    }
+  }

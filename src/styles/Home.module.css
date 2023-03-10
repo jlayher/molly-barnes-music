@@ -25,6 +25,9 @@
 /* Profile Image */
 .home__id_container_image img {
   display: inline-flex;
+
+  /* display none to fix without image */
+  display: none;;
   height: 600px;
   width: 400px;
   padding: 2px;
