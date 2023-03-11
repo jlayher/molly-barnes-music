@@ -39,7 +39,7 @@ const Nav = () => {
       </nav>
       
       <div className={styles.nav__menu_dropdown}>
-        
+
       </div>
     </div>
   );

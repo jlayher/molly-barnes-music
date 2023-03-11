@@ -27,7 +27,7 @@
   display: inline-flex;
 
   /* display none to fix without image */
-  display: none;;
+  display: flex;
   height: 600px;
   width: 400px;
   padding: 2px;
