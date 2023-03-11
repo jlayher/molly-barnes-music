@@ -26,8 +26,8 @@ visibility: visible;
 }
 .dropdownlink__dropdown_menu_active {
     visibility: visible;
-    /* transform: translateY(0);
-    transition: 5000ms ease; */
+    transform: translateY(0);
+    transition: 5000ms ease;
     background-color: rgb(57, 54, 54);
     opacity: .8;
     height: 60px;
@@ -73,6 +73,9 @@ visibility: visible;
 @media screen and (max-width: 1450px) {
     .dropdownlink__link {
         font-size: 20px;
+    }
+    .dropdownlink__dropdown_menu_active__ul_link{
+        font-size: 16px;
     }
   }
 

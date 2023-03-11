@@ -94,7 +94,7 @@
         border: 2px solid black;
         border-radius: 12px;
         background-color: beige;
-
+        opacity: .8;
           
         /* gradient generated with cssmatic.com */
         -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
