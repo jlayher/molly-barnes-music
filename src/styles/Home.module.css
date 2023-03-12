@@ -3,17 +3,16 @@
   display: flex;
 }
 
-
 /* Contains the Image and Professional Text on Left side */
 .home__id_container {
-  display: inline-flex;
+  display: flex;
 
-  /* background beige or bisque??? */
   background-color: beige;
   border-radius: 12px;
   margin-top: 5px;
+  margin-left: 15px;
   margin-right: 25px;
-  max-height: 625px;
+  max-height: 475px;
 
 
   /* gradient generated with cssmatic.com */
@@ -28,8 +27,8 @@
 
   /* display none to fix without image */
   display: flex;
-  height: 600px;
-  width: 400px;
+  height: 450px;
+  width: 300px;
   padding: 2px;
   margin: 12px 12px 12px 12px;
   border-radius: 25px;
@@ -64,6 +63,8 @@
   background-color: beige;
   border-radius: 25px;
   line-height: 32px;
+  margin-right: 25px;
+  margin-bottom: 30px;
 
   /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -73,4 +74,90 @@
 
 
 
+@media screen and (max-width: 1450px) {
+  
+  .home__body_container {
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
 
+  .home__id_container_image img{
+    height: 300px;
+    width: 200px;
+    padding: 2px;
+    margin: 8px 8px 8px 8px;
+    border-radius: 25px; 
+  }
+
+  .home__id_container {
+    /* display: block; */
+    max-height: 315px;
+
+  }
+  .home__title_container{
+    font-size: 35px;
+  }
+  
+  .home__full_aboutme_text {
+    font-size: 20px;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 12px;
+    line-height: 32px;
+    /* margin-right: 25px; */
+    margin-bottom: 30px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .home__body_container {
+    padding: 0px;
+    
+  }
+
+  .home__id_container {
+    display: none;
+  }
+
+  .home__id_container_image{
+    display: none;
+  }
+
+  .home__id_container_image img{
+    display: none;
+  }
+  .home__full_aboutme_text {
+
+    font-size: 18px;
+
+    width: 700px;
+    padding: 12px;
+    line-height: 32px;
+    /* margin-right: 25px; */
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .home__body_container{
+    padding: 0px;
+    margin: 15px;
+  }
+  .home__id_container_image img {
+    display: none;
+  }
+  .home__full_aboutme_text {
+    margin: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+
+}

@@ -21,10 +21,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
+{/* 
+      <main className={styles.main}> */}
+      {/* <div className={styles.pagepadding}> */}
         <Layout>
-          {/* Container for About Page Body */}
+         
+           
+
+               {/* Container for About Page Body */}
           <div className={styles.home__body_container}>
             
             {/* Identity Container (photo and qualifications) */}
@@ -40,7 +44,6 @@ export default function Home() {
 
             </div>
 
-           
 
             {/* About me Text */}
             <div className={styles.home__full_aboutme_text}>
@@ -89,9 +92,14 @@ export default function Home() {
               can be found performing in concerts, church services, and special
               events across the Raleigh-Durham-Chapel Hill region.
             </div>
-          </div>
+
+            </div>
+            
+
+        
         </Layout>
-      </main>
+        {/* </div> */}
+      {/* </main> */}
     </>
   );
 }

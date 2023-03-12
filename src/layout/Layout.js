@@ -9,9 +9,9 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
         <Header />
-        <div className={styles.page_padding}>
-          {/* <main>{children}</main> */}
-        </div>
+        {/* <div className={styles.page_padding}> */}
+          <main >{children}</main>
+        {/* </div> */}
       <Footer  />
     </div>
   );
