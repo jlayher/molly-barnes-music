@@ -72,7 +72,8 @@ const AcademicTeaching = () => {
 
           {/* Side Panel for Testimonials */}
 
-          <div className={styles.academic__body_sidepanel_container}>
+        <div className={styles.academic__body_sidepanel_container}>
+          
             <SidepanelTest></SidepanelTest>
           </div> 
         </div>

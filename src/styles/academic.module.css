@@ -9,7 +9,7 @@
 .academic__title {
     display: flex;
     justify-content: center;
-    align-items: center;
+
     flex: auto;
 
     padding: 20px 20px;
@@ -93,8 +93,8 @@
     padding: 10px;
     margin: 0 auto;
     margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
       /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -126,7 +126,9 @@
 
 }
 @media screen and (max-width: 768px) {
-
+    .academic__body_sidepanel_container{
+        display: none;;
+    }
 }
 @media screen and (max-width: 450px) {
 

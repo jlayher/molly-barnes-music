@@ -19,7 +19,12 @@ const SidepanelTest = () => {
 
   return (
     <div className={styles.sidepanel__container}>
-      <div className={styles.sidepanel__container_text}>"{randomData.text}"</div>
+      {/* replace placeholder line later */}
+      {/* <div className={styles.sidepanel__container_text}>"{randomData.text}"</div> */}
+
+      {/* placeholder line */}
+      <div className={styles.sidepanel__container_text}>"Dr. Barnes is very welcoming and wants all students to be successful. It is obvious that she wants all of her students to succeed. She encourages students to ask her questions and she does whatever she can to ensure that we feel confident."</div>
+      
       <div className={styles.sidepanel__container_course}>{randomData.course}</div>
     </div>
   )
