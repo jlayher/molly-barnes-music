@@ -81,3 +81,16 @@
     align-items: center;
     padding: 10px 0px 10px 0px;
 }
+
+@media screen and (max-width: 1450px) {
+    
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 450px) {
+
+}

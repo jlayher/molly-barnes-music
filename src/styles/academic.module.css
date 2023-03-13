@@ -63,6 +63,8 @@
     padding: 10px;
     margin: 0 auto;
     margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -91,6 +93,8 @@
     padding: 10px;
     margin: 0 auto;
     margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
       /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -111,7 +115,7 @@
 .academic__body_sidepanel_container {
     display: flex;
     margin: 0 auto;
-    /* margin-top: 60px; */
+    margin-top: 100px;
 }
 
 
@@ -128,4 +132,3 @@
 
 }
 
-/* .academic__body_sidepanel_container */

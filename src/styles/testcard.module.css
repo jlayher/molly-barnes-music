@@ -1,11 +1,3 @@
-
-
-
-
-/* .testcard__body_container {
-
-} */
-
 .testcard__grid {
   display: flex;
 
@@ -48,4 +40,17 @@
   padding-top: 5px;
   font-size: 22px;
   font-style: italic;
+}
+
+@media screen and (max-width: 1450px) {
+    
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 450px) {
+
 }
