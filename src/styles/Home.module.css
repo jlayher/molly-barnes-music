@@ -63,8 +63,9 @@
   background-color: beige;
   border-radius: 25px;
   line-height: 32px;
-  margin-right: 25px;
+  margin-right: 65px;
   margin-bottom: 30px;
+  margin-left: 40px;;
 
   /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -159,5 +160,7 @@
 
 
 @media screen and (max-width: 450px) {
-
+  .home__full_aboutme_text {
+    line-height: 28px;
+  }
 }

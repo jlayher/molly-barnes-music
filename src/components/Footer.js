@@ -40,7 +40,8 @@ const Footer = () => {
             className={styles.footer__section_container_anchors}>
             (919) 205-9849
           </a>
-          <br />
+          <span> &nbsp; </span>
+          
 
           <a
             href="https://www.skylarkmusicschool.com/"
@@ -48,7 +49,7 @@ const Footer = () => {
             {" "}
             Skylark Music School
           </a>
-          <br />
+          <span> &nbsp; </span>
 
           <a
             href="mailto: info@skylarkmusicschool.com"
