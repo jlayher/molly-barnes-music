@@ -12,15 +12,15 @@
 
     flex: auto;
 
-    padding: 20px 20px;
+    padding: 10px 20px;
     margin: 0 auto;
 
     margin-bottom: 10px;;
     max-width: 50%;
-    /* margin: 0px 90px 20px 90px; */
+  
     position: relative;
     border-radius: 12px;
-
+    border: 2px solid black;
     font-size: 38px;
     font-weight: 400;
 
@@ -42,6 +42,7 @@
     /* remove body for testing */
     /* display: none; */
     flex-direction: row;
+    
 
 }
 
@@ -59,6 +60,7 @@
     align-items: center;
 
     background-color: beige;
+    border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
     margin: 0 auto;
@@ -89,6 +91,7 @@
     align-items: center;
 
     background-color: beige;
+    border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
     margin: 0 auto;
@@ -130,7 +133,11 @@
         font-size: 32px;
         max-width: 80%;
     }
-
+    .academic__body_text_container {
+        max-width: 85%;
+        margin: 0 auto;
+        padding: 0;
+    }
 
     .academic__body_text_teaching h1 {
         font-size: 26px;
@@ -146,6 +153,9 @@
 
     .academic__body_text_research p {
         font-size: 22px;
+    }
+       .academic__body_sidepanel_container{
+        display: none;
     }
 }
 @media screen and (max-width: 768px) {

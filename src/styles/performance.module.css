@@ -21,6 +21,7 @@
 
     text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
     background-color: beige;
+    border: 2px solid black;
     
       /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -39,6 +40,7 @@
     display: flex;
 
     background-color: beige;
+    border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
     max-width: 55%;
@@ -68,6 +70,7 @@
     justify-content: center;
     align-items: center;
     background-color: beige;
+    border: 2px solid black;
     border-radius: 12px;
     margin-top: 25px;
     margin-right: 30px;
@@ -85,9 +88,10 @@
     align-items: center;
     height: 727.5px;
     width: 485px;
-    padding: 2px;
+
     margin: 12px 12px 12px 12px;
     border-radius: 25px;
+    border: 1px solid black;
   }
 
 
