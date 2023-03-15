@@ -169,7 +169,6 @@
       flex-wrap: wrap;
       max-height: 385px;
       max-width: 480px;
-
     }
 
   }
@@ -195,7 +194,7 @@
       flex-wrap: wrap;
       max-height: 285px;
       max-width: 380px;
-
+      margin: 6px;
     }
 
   }

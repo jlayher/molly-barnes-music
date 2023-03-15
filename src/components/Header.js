@@ -36,9 +36,9 @@ const [toggleMenu, setToggleMenu] = useState(false)
             <Link href="/" className={styles.header__nav_dropdown_menu_container_items_container}>Home</Link>
             {/* make Teaching into academic and private lesson links */}
             <DropdownLink title={"Teaching"} className={styles.header__nav_dropdown_menu_container_items_container}></DropdownLink>
-            <Link href="/academic-teaching" className={styles.header__nav_dropdown_menu_container_items_container}>Academic Teaching</Link>
+            <Link href="/academic-teaching" className={styles.header__nav_dropdown_menu_container_items_container}>Academic</Link>
 
-            <Link href="/private-lessons" className={styles.header__nav_dropdown_menu_container_items_container}>Private Lessons</Link>
+            <Link href="/private-lessons" className={styles.header__nav_dropdown_menu_container_items_container}>Lessons</Link>
             
           <Link href="/testimonials" className={styles.header__nav_dropdown_menu_container_items_container}>Testimonials</Link>
           <Link href="/performance" className={styles.header__nav_dropdown_menu_container_items_container}>Performance</Link>
