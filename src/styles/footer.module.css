@@ -46,7 +46,9 @@
     justify-content: center;
     
 }
-
+.footer__section_title{
+    margin-top: 2px;
+}
 /* .footer__section_container_private {
     display: flex;
      gradient generated with cssmatic.com 

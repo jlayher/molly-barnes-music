@@ -32,20 +32,25 @@
   .performance__body_container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .performance__body_text {
     display: flex;
+    flex-direction: column;
+    /* flex:1; */
+
+    max-width: 65%;
 
     background-color: beige;
     border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
-    max-width: 55%;
-    margin-top: 10px;
-
+    /* max-width: 55%; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
 /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -62,6 +67,7 @@
 .performance__body_text a {
     font-size: 26px;
     line-height: 32px;
+    color: black;
 }
 
 .performance__body_image_container {
@@ -69,12 +75,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+  
+
+
+
     background-color: beige;
     border: 2px solid black;
     border-radius: 12px;
     margin-top: 25px;
     margin-right: 30px;
-  
+    margin-bottom: 40px;
+    margin-left: 40px;
     /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -88,6 +101,7 @@
     align-items: center;
     height: 727.5px;
     width: 485px;
+   
 
     margin: 12px 12px 12px 12px;
     border-radius: 25px;
@@ -96,16 +110,50 @@
 
 
   @media screen and (max-width: 1450px) {
-    
+    .performance__body_text p{
+      font-size: 24px;
+    }
+    .performance__body_text a{
+      font-size: 24px;
+
+    }
   }
   @media screen and (max-width: 1024px) {
-  
+    .performance__body_container{
+      margin-top: 20px;
+    }
+    
+    .performance__body_image_container {
+      margin-top: 80px;
+    }
+    .performance__body_image_container img {
+      height: 485px;
+      width: 323px;
+    }
+    .performance__body_text p{
+      font-size: 22px;
+    }
+    .performance__body_text a{
+      font-size: 22px;
+
+    }
   }
   @media screen and (max-width: 768px) {
     .performance__body_image_container{
         display: none;
     }
+    .performance__body_text {
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 40px;
+
+      max-width: 80%;
+      padding: 0px;
+    }
+
   }
   @media screen and (max-width: 450px) {
-  
+    .performance__title{
+      font-size: 24px;
+    }
   }
