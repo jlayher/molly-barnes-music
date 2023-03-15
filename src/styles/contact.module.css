@@ -13,7 +13,7 @@
     
         max-width: 50%;
 
-        position: relative;
+        /* position: relative; */
         border-radius: 12px;
         border: 2px solid black;
         font-size: 38px;
@@ -34,9 +34,10 @@
 
   .contact__body_container {
     display: flex;
+    /* margin: 0 auto; */
     /* flex-direction: center; */
     justify-content: center;
-
+    align-items: center;
 }
 
 .contact__body_text {
@@ -47,6 +48,7 @@
     background-color: beige;
     border: 2px solid black;
     border-radius: 12px;
+
     padding: 10px;
     /* max-width: 65%; */
     margin-top: 60px;
@@ -60,48 +62,86 @@
 
 .contact__body_text  {
     font-size: 32px;
-    padding: 45px;
-    line-height: 22px;
+    padding: 35px 35px 45px 35px;
+    line-height: 24px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 
 .contact__body_text a {
     font-size: 24px;
-    line-height: 22px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 10px;
+
 }
 
 .contact__body_titles {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    padding: 20px 0px 10px 0px;
-    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .contact__body_item { 
     display: flex;
     justify-content: center;
-    font-size: 28px;
-    padding: 15px 0px 15px 0px;
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
 }
 
 .contact__body_item_downloads {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px 10px 0px;
+    padding: 0px;
+
 }
 
 @media screen and (max-width: 1450px) {
-    
+    .contact__title {
+        font-size:  35px;;
+    }
+
 }
 @media screen and (max-width: 1024px) {
+    .contact__title {
+        font-size: 32px;
+        max-width: 80%;
+    }
+    .contact__body_titles {
+        font-size: 26px;
+    }
+    .contact__body_item {
+        font-size: 22px;
+    }
+    .contact__body_item a {
+        font-size: 22px;
+    }
+    .contact__body_item_text a {
+        font-size: 22px;
+    }
 
 }
 @media screen and (max-width: 768px) {
-
+    .contact__body_titles {
+        font-size: 22px;
+    }
+    .contact__body_item {
+        font-size: 18px;
+    }
+    .contact__body_item a {
+        font-size: 18px;
+    }
+    
 }
 @media screen and (max-width: 450px) {
-
+    .contact__title {
+        font-size: 24px;
+    }
+    .contact__body_text{
+        padding: 0px;
+    }
 }

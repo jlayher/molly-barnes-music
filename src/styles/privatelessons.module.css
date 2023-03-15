@@ -74,7 +74,6 @@
 
 /* Contains the Image and Professional Text on Left side */
 .privatelessons__body_image_container {
-    /* display: inline-flex; */
     display: flex;
     justify-content: center;
     align-items: center;
