@@ -1,4 +1,4 @@
-export const DurhamUniversityData = [
+export const TestimonialData = [
   {
     id: "d5",
     text: "Without a doubt, this has been my favourite module during my time at Durham so far. This is due to interesting content, however for the most part this is due to the quality of Dr. Barnes' teaching; seminars employing a debate format, requiring students to work in teams together, were my favourite part of my degree so far.",
@@ -50,9 +50,6 @@ export const DurhamUniversityData = [
     text: "Molly. Barnes. Is. Incredible. By far my favourite module. Everything is always so consistent and standardized. I feel so safe in the classroom and motivated to learn. The slides that Molly makes are a fantastic asset when it comes to revision and essays and it's one of my only lectures where I have felt a certain engagement. Molly is always great on emails and has been beyond understanding in so many circumstances whilst setting clear boundaries for expectations.",
     course: "(Historical Studies 2)",
   },
-];
-
-export const UncGreensboroData = [
   {
     id: "g1",
     text: "I absolutely loved this class and Dr. Barnes. She always conveyed the information in a way that was easy to understand while also pushing us to recall and make connections as we progressed throughout the semester.",
@@ -142,9 +139,6 @@ export const UncGreensboroData = [
     text: "Dr. Barnes is an amazing instructor who needs to teach at this institution as a full time professor. She is one of the best professors I have had at UNCG and she is passionate about her subject which encourages her students to learn. Also, she actually knows how to teach to the students and changes her teaching strategy to best help her students learn and maintain the material after the class ends. I hope to have her as my professor again!",
     course: "(History of Western Music 1750-Present)",
   },
-];
-
-export const UncChapelHillData = [
   {
     id: "c1",
     text: "I just feel like taking this class was one of the best decisions I have ever made. It really opened up my horizons. But more important than that, I really want to thank you for making time outside the classroom and responding to so many emails to help me with all of my questions. I know you are really busy, but you always put us first…I really admire your passion towards music and the amount of work you put into every class to give as much passion to us.",
