@@ -1,61 +1,54 @@
 import React from 'react'
+
+import Posts from "@/components/Body-Components/Posts";
+import Pagination from "@/components/Body-Components/Pagination";
 import Layout from '@/layout/Layout'
+
 import { TestimonialData } from '@/constants/testimonials'
-// import TestCard from '@/components/Body-Components/TestCard'
-import TestimonialCard from '@/components/Body-Components/TestimonialCard'
+// import TestimonialCard from '@/components/Body-Components/TestimonialCard'
 import { useState } from "react";
 
 import styles from '@/styles/testimonials.module.css'
 
-const Testimonials = () => {
-  const [currentPage, setCurrentPage] = useState(1)
-  const [testsPerPage, setTestsPerPage] = useState(10)
-  const [buttonIsActive, setButtonIsActive] = useState(false);
 
-  const testimonyData = TestimonialData;
+const testimonials2 = () => {
+  // state
 
-  const lastTestIndex = currentPage * testsPerPage;
-  const firstTestIndex = lastTestIndex - testsPerPage;
-  const currentTests = testimonyData.slice(firstTestIndex, lastTestIndex)
-  const totalPages = 4;
+  //store fetched posts (total posts)
+  const posts = TestimonialData;
+  //set current page to the pagination button clicked (initialize as 1).  Use value to calculate the indexOfLastPost (used for getting current posts)
+  const [currentPage, setCurrentPage] = useState(1);
+  //set the number of posts to show per page.  Used to calculate the indexOfLastPost and indexOfFirstPost, which are used to generate the currentPosts array
+  const [postsPerPage, setPostsPerPage] = useState(10);
+ 
 
-  const handleClick = (e) => {
-    // setButtonIsActive(false);
-    // if (e.target.value === currentPage) {
-    //   setButtonIsActive(buttonIsActive => !buttonIsActive);
-    // }
+//get current posts by slicing the posts (total posts array) depending on page number and number of posts per page
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
-    console.log(buttonIsActive);
-    setCurrentPage(e.target.value);
-    console.log(e.target.value);
+
+// Change page 
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+
+    return (
+        <Layout>
+            <div className={styles.testimonials__title}>Testimonials</div>
+
+            <div className={styles.testimonials__grid_container}>
+                  {/* pass currentPosts and loading state. */}
+                <Posts posts={currentPosts} />
+                </div>
+    
+                <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
+
+
+
+      </Layout>
+
+  );
 }
 
-  let toggleClassCheck = buttonIsActive ? `${styles.active}` : '';
 
-  return (
-    <Layout>
-      <div className={styles.testimonials__title}>Testimonials</div>
-
-      
-
-      <div className={styles.testimonials__grid_container}>
-
-          {currentTests.map(({ id, text, course }) => (
-            <TestimonialCard text={text} course={course}>
-            </TestimonialCard>
-          ))}
-
-      </div>
-      <div className={styles.testimonials_pagination_buttons}>
-        <button value={1} className={`${styles.testimonials_pagination_buttons_button} ${toggleClassCheck}`} onClick={(e) => handleClick(e)}>1</button>            
-        <button value={2} className={`${styles.testimonials_pagination_buttons_button} ${toggleClassCheck}`} onClick={(e) => handleClick(e)}>2</button>            
-        <button className={styles.testimonials_pagination_buttons_button} onClick={() => setCurrentPage(3)}>3</button>            
-        <button className={styles.testimonials_pagination_buttons_button} onClick={() => setCurrentPage(4)}>4</button>            
-      </div>
-      
-    </Layout>
-
-  )
-}
-
-export default Testimonials
+export default testimonials2
