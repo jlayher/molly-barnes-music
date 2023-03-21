@@ -63,7 +63,7 @@
     padding: 35px 35px 45px 35px;
     line-height: 24px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 
@@ -138,8 +138,11 @@
 @media screen and (max-width: 450px) {
     .contact__title {
         font-size: 24px;
+        margin-top: 0px;
     }
     .contact__body_text{
         padding: 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }

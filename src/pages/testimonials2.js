@@ -38,10 +38,12 @@ const testimonials2 = () => {
 
             <div className={styles.testimonials__grid_container}>
                   {/* pass currentPosts and loading state. */}
-                <Posts posts={currentPosts}/>
+                <Posts posts={currentPosts} />
+                </div>
+                <div className={styles.testimonials_pagination_buttons}>
                 <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
-                
-            </div>
+                </div>
+
 
       </Layout>
 

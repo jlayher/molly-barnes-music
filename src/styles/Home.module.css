@@ -148,6 +148,9 @@
 
 
 @media screen and (max-width: 768px) {
+  .home__title_container {
+    font-size: 32px;
+  }
   .home__body_container{
     padding: 0px;
     margin: 15px;
@@ -165,5 +168,8 @@
 @media screen and (max-width: 450px) {
   .home__full_aboutme_text {
     line-height: 28px;
+  }
+  .home__title_container {
+    font-size: 24px;
   }
 }

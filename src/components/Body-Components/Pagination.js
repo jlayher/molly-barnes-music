@@ -1,25 +1,29 @@
 import React from "react";
 
+import styles from "@/styles/testimonials.module.css";
+
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
-    const pageNumbers = [];
+  const pageNumbers = [];
 
-    for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
-        pageNumbers.push(i);
-    }
+  for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
+    pageNumbers.push(i);
+  }
 
-    return (
-        <nav>
-            <ul className="pagination">
-                {pageNumbers.map(number => (
-                    <li key={number} className="page-item">
-                        <a onClick={() => paginate(number)}  href="!#" className="page-link">
-                            {number}
-                        </a>
-                    </li>
-                ))}
-            </ul>
-        </nav>
-    );
+  return (
+      <div className={styles.testimonials_pagination_buttons}>
+          
+          {pageNumbers.map((number) => (
+        <button
+          key={number}
+          className={styles.testimonials_pagination_buttons_button}
+          onClick={() => paginate(number)}>
+          {number}
+        </button>
+      ))}
+
+</div>
+     
+  );
 };
 
 export default Pagination;
