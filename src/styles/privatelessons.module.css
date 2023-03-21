@@ -44,11 +44,13 @@
     flex-direction: column;
     background-color: beige;
     border-radius: 12px;
-    border: 2px solid black;
-    padding: 10px;
-    max-width: 45%;
+    font-size: 36px;
+    padding: 25px 32px 25px 32px;
+    line-height: 38px;
+    max-width: 65%;
     margin-top: 10px;
     margin-bottom: 40px;
+    margin-left: 30px;
 
 /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -60,28 +62,30 @@
 .privatelessons__body_text p {
   display: flex;
       flex-direction: column;
-    font-size: 26px;
-    padding: 15px;
-    line-height: 32px;
+      font-size: 28px;
+      /* padding: 25px 32px 25px 32px; */
+      padding: 15px;
+      line-height: 38px;
 }
 
 .privatelessons__body_text a {
   display: flex;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 28px;
+    line-height: 38px;
   
 }
 
 /* Contains the Image and Professional Text on Left side */
 .privatelessons__body_image_container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     background-color: beige;
     border-radius: 12px;
     border: 2px solid black;
-    margin-top: 25px;
-    margin-left: 85px;
+    /* margin-top: 25px; */
+    margin-left: 65px;
+    margin-right: 35px;
     /* max-height: 625px; */
   
   
@@ -95,10 +99,10 @@
   .privatelessons__body_image_container img {
     /* display: inline-flex; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 480px;
-    max-width: 640px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    max-height: 500px;
+    max-width: 667px;
 
     border: 1px solid black;
     margin: 12px 12px 12px 12px;

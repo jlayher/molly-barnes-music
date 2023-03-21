@@ -13,7 +13,7 @@
 
     max-width: 50%;
     margin-top: 10px;
-
+  margin-bottom: 10px;
     border-radius: 12px;
 
     font-size: 38px;
@@ -59,14 +59,14 @@
 
 
 .performance__body_text p {
-    font-size: 26px;
-    padding: 15px;
-    line-height: 32px;
+    font-size: 28px;
+    padding: 25px;
+    line-height: 38px;
 }
 
 .performance__body_text a {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 28px;
+    line-height: 38px;
     color: black;
 }
 

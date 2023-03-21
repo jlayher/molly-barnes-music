@@ -32,14 +32,14 @@
 
 .testcard__body_text_text {
   display: flex;
-  font-size: 24px;
+  font-size: 28px;
   align-items: center;
   justify-content: center;
 }
 
 .testcard__body_text_course {
   padding-top: 5px;
-  font-size: 22px;
+  font-size: 24px;
   font-style: italic;
 }
 

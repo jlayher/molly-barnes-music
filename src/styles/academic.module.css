@@ -74,14 +74,14 @@
 }
 
 .academic__body_text_teaching h1 {
-    font-size: 30px;
-    padding-top: 10px;
+    font-size: 32px;
+    padding-top: 25px;
 }
 
 .academic__body_text_teaching p {
-    font-size: 26px;
-    padding: 15px;
-    line-height: 32px;
+    font-size: 28px;
+    padding: 25px 32px 25px 32px;
+    line-height: 38px;
 }
 
 
@@ -105,14 +105,14 @@
 }
 
 .academic__body_text_research h1 {
-    font-size: 30px;
-    padding-top: 10px;
+    font-size: 32px;
+    padding-top: 25px;
 }
 
 .academic__body_text_research p {
-    font-size: 26px;
-    padding: 15px;
-    line-height: 32px;
+    font-size: 28px;
+    padding: 25px 32px 25px 32px;
+    line-height: 38px;
 }
 
 .academic__body_sidepanel_container {
