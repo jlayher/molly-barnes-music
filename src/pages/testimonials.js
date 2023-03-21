@@ -10,6 +10,7 @@ import styles from '@/styles/testimonials.module.css'
 const Testimonials = () => {
   const [currentPage, setCurrentPage] = useState(1)
   const [testsPerPage, setTestsPerPage] = useState(10)
+  const [buttonIsActive, setButtonIsActive] = useState(false);
 
   const testimonyData = TestimonialData;
 
@@ -17,6 +18,19 @@ const Testimonials = () => {
   const firstTestIndex = lastTestIndex - testsPerPage;
   const currentTests = testimonyData.slice(firstTestIndex, lastTestIndex)
   const totalPages = 4;
+
+  const handleClick = (e) => {
+    // setButtonIsActive(false);
+    // if (e.target.value === currentPage) {
+    //   setButtonIsActive(buttonIsActive => !buttonIsActive);
+    // }
+
+    console.log(buttonIsActive);
+    setCurrentPage(e.target.value);
+    console.log(e.target.value);
+}
+
+  let toggleClassCheck = buttonIsActive ? `${styles.active}` : '';
 
   return (
     <Layout>
@@ -33,10 +47,10 @@ const Testimonials = () => {
 
       </div>
       <div className={styles.testimonials_pagination_buttons}>
-        <button onClick={() => setCurrentPage(1)}>1</button>            
-        <button onClick={() => setCurrentPage(2)}>2</button>            
-        <button onClick={() => setCurrentPage(3)}>3</button>            
-        <button onClick={() => setCurrentPage(4)}>4</button>            
+        <button value={1} className={`${styles.testimonials_pagination_buttons_button} ${toggleClassCheck}`} onClick={(e) => handleClick(e)}>1</button>            
+        <button value={2} className={`${styles.testimonials_pagination_buttons_button} ${toggleClassCheck}`} onClick={(e) => handleClick(e)}>2</button>            
+        <button className={styles.testimonials_pagination_buttons_button} onClick={() => setCurrentPage(3)}>3</button>            
+        <button className={styles.testimonials_pagination_buttons_button} onClick={() => setCurrentPage(4)}>4</button>            
       </div>
       
     </Layout>

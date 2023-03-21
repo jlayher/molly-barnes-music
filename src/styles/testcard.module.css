@@ -43,3 +43,30 @@
   font-style: italic;
 }
 
+
+@media screen and (max-width: 1450px) {
+
+  }
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+.testcard__body_text_text{
+  font-size: 18px;
+}
+.testcard__body_text_course{
+  font-size: 16px;
+}
+
+}
+@media screen and (max-width: 450px) {
+  .testcard__body_text {
+    padding: 8px;
+  }
+  .testcard__body_text_text{
+    font-size: 16px;
+  }
+  .testcard__body_text_course{
+    font-size: 12px;
+  }
+}

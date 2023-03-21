@@ -42,7 +42,7 @@
   border-radius: 12px;
 }
 
-.testimonials_pagination_buttons button {
+.testimonials_pagination_buttons_button {
   font-size: 20px;
   width: 80px;
   height: 40px;
@@ -51,17 +51,22 @@
   background-color: beige;
   border-radius: 12px;
   border: 2px solid black; 
-  
+margin-bottom: 10px;
    /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 }
 
+.active{
+  background-color: black;
+  color: rgb(171, 138, 54);
+}
+
   .testimonials__grid_container {
 
 
-    display: grid;;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px; 
 
@@ -78,13 +83,27 @@
     }
   }
   @media screen and (max-width: 1024px) {
-     .academic__title{
+     .testimonials__title{
         font-size: 32px;
         max-width: 80%;
     }
   }
   @media screen and (max-width: 768px) {
-
+    .testimonials__grid_container {
+      display: flex;
+      flex-direction: column;
+    }
+.testimonials_pagination_buttons button{
+  width: 80px;
+  height: 40px;
+  margin: 0px 15px;
+}
+.testimonials__grid_container{
+  gap: 25px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 20px 20px 20px;
+}
 
   }
   @media screen and (max-width: 450px) {
