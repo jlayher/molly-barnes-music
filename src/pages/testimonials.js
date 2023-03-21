@@ -41,7 +41,7 @@ const testimonials2 = () => {
                 <Posts posts={currentPosts} />
                 </div>
     
-                <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
+                <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} currentPage={currentPage} paginate={paginate} />
 
 
 

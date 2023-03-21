@@ -32,10 +32,10 @@
 .testimonials_pagination_buttons{
   display: flex;
   justify-content: center;
-
+  
 
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 30px;
   max-width: 35%;
 
@@ -58,9 +58,22 @@ margin-bottom: 10px;
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 }
 
-.active{
-  background-color: black;
-  color: rgb(171, 138, 54);
+.testimonials_pagination_buttons_button_active{
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  margin: 0px 40px;
+
+  background-color: beige;
+  border-radius: 12px;
+  border: 2px solid black; 
+margin-bottom: 10px;
+background-color: rgb(56, 48, 48);
+color: rgb(171, 138, 54);
+   /* gradient generated with cssmatic.com */
+  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 }
 
   .testimonials__grid_container {

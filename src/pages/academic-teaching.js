@@ -1,7 +1,7 @@
 import Layout from "@/layout/Layout";
 import React from "react";
 
-import TestimonialBar from "@/components/TestimonialBar";
+
 
 import styles from "@/styles/academic.module.css";
 import SidepanelTest from "@/components/Body-Components/SidepanelTest";
@@ -32,7 +32,7 @@ const AcademicTeaching = () => {
                 deep intellectual and emotional engagement with music.
                 <br />
                 <br />
-                {/* Add: You can view my Acacdemic evaluations here */}
+              
                 Excerpts from previous student evaluations of my teaching in
                 music history and musicianship classes at Durham University,
                 UNC-Greensboro, and UNC-Chapel Hill can be viewed in the
