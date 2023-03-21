@@ -69,7 +69,7 @@
 
 .contact__body_text a {
     font-size: 28px;
-    line-height: 32px;
+    /* line-height: 32px; */
     color: black;
     margin-bottom: 10px;
 
@@ -134,12 +134,16 @@
     .contact__body_item a {
         font-size: 18px;
     }
+    .contact__body_item_text a {
+        font-size: 18px;
+    }
     
 }
 @media screen and (max-width: 450px) {
     .contact__title {
         font-size: 24px;
         margin-top: 0px;
+        margin-bottom: 0px;
     }
     .contact__body_text{
         padding: 0px;

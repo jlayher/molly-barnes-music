@@ -11,42 +11,40 @@ const Contact = () => {
       <div className={styles.contact__body_container}>
         <div className={styles.contact__body_text}>
           <h3 className={styles.contact__body_titles}>Contact Me</h3>
-          <span className={styles.contact__body_item}>
+          <div className={styles.contact__body_item}>
             Email: &nbsp;
             <a
               href="mailto: molly.l.barnes@gmail.com"
               className={styles.footer__section_container_anchors}>
               Molly.L.Barnes@gmail.com
             </a>
-          </span>
+          </div>
 
           <h3 className={styles.contact__body_titles}>
             Contact Skylark Music School
           </h3>
-          <span className={styles.contact__body_item}>
+          <div className={styles.contact__body_item}>
             Contact Number: &nbsp;
-            <a
-              href="tel: 9192059849"
-              className={styles.footer__section_container_anchors}>
+            <a href="tel: 9192059849">
               (919) 205-9849
             </a>
-          </span>
-          <span className={styles.contact__body_item}>
+          </div>
+          <div className={styles.contact__body_item}>
             Website: &nbsp;
             <a
               href="https://www.skylarkmusicschool.com/"
               className={styles.footer__section_container_anchors}>
               Skylark Music School
             </a>
-          </span>
-          <span className={styles.contact__body_item}>
+          </div>
+          <div className={styles.contact__body_item}>
             Email: &nbsp; 
             <a
               href="mailto: info@skylarkmusicschool.com"
               className={styles.footer__section_container_anchors}>
               info@skylarkmusicschool.com
             </a>
-          </span>
+          </div>
 
           <h3 className={styles.contact__body_titles}>Downloads</h3>
           <div className={styles.contact__body_item}>

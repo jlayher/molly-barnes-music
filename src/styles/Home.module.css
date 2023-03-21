@@ -1,7 +1,7 @@
 
 .home__body_container {
   display: flex;
-
+  
 }
 
 /* Contains the Image and Professional Text on Left side */
@@ -14,7 +14,6 @@
   margin-left: 45px;
   margin-right: 25px;
   max-height: 475px;
-  
   border: 2px solid black;
 
   /* gradient generated with cssmatic.com */
@@ -61,9 +60,6 @@
 
 /* About me Text */
 .home__full_aboutme_text {
-  display: flex;
-  flex-direction: column;
-  max-width: 65%;
   font-size: 28px;
   padding: 5px 60px 20px 60px;
   margin-bottom: 0px;
