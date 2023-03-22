@@ -13,7 +13,7 @@
 
     max-width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     border-radius: 12px;
 
     font-size: 38px;
@@ -34,26 +34,22 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-start;
-
+    margin-top: 40px;
     
 }
 
 .performance__body_text {
-    display: flex;
 
-    flex-direction: column;
-    /* flex:1; */
-
-    max-width: 30%;
+    max-width: 35%;
 
     background-color: beige;
     border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
-    /* max-width: 55%; */
+
     margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    margin-bottom: 38px;
+    margin-right: 40px;
 /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -63,7 +59,7 @@
 
 .performance__body_text p {
     font-size: 28px;
-    padding: 25px;
+    padding: 30px;
     line-height: 38px;
 }
 
@@ -82,10 +78,11 @@
     background-color: beige;
     border: 2px solid black;
     border-radius: 12px;
-    margin-top: 25px;
-    margin-right: 30px;
+    margin-top: 40px;
+    margin-right: 90px;
     margin-bottom: 40px;
     margin-left: 40px;
+
     /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
@@ -117,7 +114,7 @@
     }
     .performance__body_text{
       max-width: 85%;
-      margin-bottom: 0px;
+      margin-bottom: 40px;
     }
 
     }
@@ -128,7 +125,8 @@
     }
     
     .performance__body_image_container {
-      margin-top: 80px;
+      margin-top: 40px;
+      margin-right: 20px;
     }
     .performance__body_image_container img {
       height: 485px;
@@ -143,14 +141,14 @@
     .performance__body_text a{
       font-size: 22px;
     }
-    .performance__body_container{
+    /* .performance__body_container{
       display: flex;
-      flex-direction: column;
+      flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
       margin: 0 auto;
       margin-top: 40px;
-    }
+    } */
     
   }
   @media screen and (max-width: 768px) {
@@ -163,12 +161,15 @@
       margin-bottom: 40px;
 
       max-width: 85%;
-      padding: 0px;
+      padding: 10px;
     }
 
   }
   @media screen and (max-width: 450px) {
     .performance__title{
       font-size: 24px;
+    }
+    .performance__body_text a{
+      font-size: 20px;
     }
   }

@@ -34,6 +34,7 @@
     display: flex;
     /* margin: 0 auto; */
     /* flex-direction: center; */
+    margin-top: 20px;;
     justify-content: center;
     align-items: center;
 }
@@ -145,9 +146,14 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
+        .contact__body_titles {
+        font-size: 21px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
     .contact__body_text{
         padding: 0px;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 40px;
     }
 }

@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 100px;
 
 }
 
@@ -60,7 +60,7 @@
 
 
 .privatelessons__body_text p {
-  display: flex;
+
       flex-direction: column;
       font-size: 28px;
       /* padding: 25px 32px 25px 32px; */
@@ -69,7 +69,7 @@
 }
 
 .privatelessons__body_text a {
-  display: flex;
+
     font-size: 28px;
     line-height: 38px;
   
@@ -78,15 +78,14 @@
 /* Contains the Image and Professional Text on Left side */
 .privatelessons__body_image_container {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+
     background-color: beige;
     border-radius: 12px;
     border: 2px solid black;
-    /* margin-top: 25px; */
+    
     margin-left: 65px;
     margin-right: 35px;
-    /* max-height: 625px; */
+    margin-bottom: 20px;
   
   
     /* gradient generated with cssmatic.com */
@@ -97,10 +96,9 @@
   
   /* privatelesson image */
   .privatelessons__body_image_container img {
-    /* display: inline-flex; */
+
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+
     max-height: 500px;
     max-width: 667px;
 
@@ -110,8 +108,10 @@
   }
 
 
-
   @media screen and (max-width: 1450px) {
+    .privatelessons__body_container{
+      margin-top: 40px;
+    }
     .privatelessons__title{
       font-size: 35px;
     }
@@ -120,12 +120,18 @@
       margin: 0 auto;
       padding: 0;
       margin-left: 40px;
+      margin-bottom: 30px;
+  
+
     }
     .privatelessons__body_text p{
       font-size: 22px;
+      line-height: 32px;
+      padding: 30px;
     }
     .privatelessons__body_text p a{
       font-size: 22px;
+      line-height: 32px;
     }
     .privatelessons__body_image_container{
       margin: 0 auto;
@@ -217,9 +223,11 @@
     }
     .privatelessons__body_text p {
       font-size: 18px;
+      line-height: 28px;
     }
     .privatelessons__body_text p a {
       font-size: 16px;
+      line-height: 28px;
     }
 
   }

@@ -78,7 +78,7 @@
     flex-wrap: wrap;
 
     /* margin-top: 5px; */
-    padding-left: 15px;
+    padding-left: 10px;
 
 
 }
@@ -188,4 +188,5 @@
     .footer__container_bottom_links {
         font-size: 10px;
     }
+
 }

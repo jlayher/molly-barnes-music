@@ -48,6 +48,10 @@
   height: 40px;
   margin: 0px 40px;
 
+  
+  /* position: sticky; */
+
+
   background-color: beige;
   border-radius: 12px;
   border: 2px solid black; 

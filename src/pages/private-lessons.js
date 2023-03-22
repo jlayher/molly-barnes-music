@@ -32,10 +32,9 @@ const PrivateLessons = () => {
             <br />
             Currently I teach private lessons in piano and violin, in-home and
             in-studio, through Skylark Music School in Chapel Hill. For more
-            information about Skylark, please visit
-            <a href="https://www.skylarkmusicschool.com">
-              {" "}
-              https://www.skylarkmusicschool.com
+            information about Skylark, please visit&nbsp;
+            <a className={styles.privatelessons__body_text_anchor} href="https://www.skylarkmusicschool.com">
+            skylarkmusicschool.com
             </a>
           </p>
         </div>

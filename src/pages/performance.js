@@ -34,7 +34,8 @@ const Performance = () => {
             university's Viol Consort.
             <br />
             <br />
-            For any inquiries about performing at your event, please contact me at <a href="mailto: molly.l.barnes@gmail.com" >Molly.L.Barnes@gmail.com</a>
+            For any inquiries about performing at your event, please contact me at&nbsp;
+            <a href="mailto: molly.l.barnes@gmail.com" >Molly.L.Barnes@gmail.com</a>
           </p>
         </div>
 

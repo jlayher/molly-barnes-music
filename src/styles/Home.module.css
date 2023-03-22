@@ -10,7 +10,7 @@
 
   background-color: beige;
   border-radius: 12px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-left: 45px;
   margin-right: 25px;
   max-height: 475px;
@@ -20,6 +20,11 @@
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+  
+/* experiment with gradient */
+background-size: 4px 4px;
+background-image: repeating-linear-gradient(45deg, #898989 0, #898989 0.5px, #F5F5DC 0, #F5F5DC 60%);
 }
 
 /* Profile Image */
@@ -52,7 +57,7 @@
   padding-top: 10px;
   font-size: 44px;
   font-weight: 400;
-  margin: 0px 0px 20px 0px;
+  margin: 10px 0px 20px 0px;
   text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
 
 }
@@ -61,7 +66,7 @@
 /* About me Text */
 .home__full_aboutme_text {
   font-size: 28px;
-  padding: 5px 60px 20px 60px;
+  padding: 5px 60px 40px 60px;
   margin-bottom: 0px;
   background-color: beige;
   border-radius: 25px;
@@ -76,6 +81,13 @@
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+  background-color: beige;
+
+/* experiment with gradient */
+  background-size: 4px 4px;
+  background-image: repeating-linear-gradient(45deg, #898989 0, #898989 0.5px, #F5F5DC 0, #F5F5DC 60%);
+  
 }
 
 
@@ -122,7 +134,7 @@
 
   .home__body_container {
     padding: 0px;
-    
+
   }
 
   .home__id_container {
@@ -144,7 +156,7 @@
     padding: 12px;
     line-height: 32px;
     /* margin-right: 25px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-right: 0px;
   }
 }
