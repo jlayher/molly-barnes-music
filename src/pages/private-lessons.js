@@ -34,7 +34,7 @@ const PrivateLessons = () => {
             in-studio, through Skylark Music School in Chapel Hill. For more
             information about Skylark, please visit&nbsp;
             <a className={styles.privatelessons__body_text_anchor} href="https://www.skylarkmusicschool.com">
-            skylarkmusicschool.com
+            skylarkmusicschool.com.
             </a>
           </p>
         </div>

@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Layout from "@/layout/Layout";
 
-
 // import profile image
 import profileImg from "../../public/molly_purple_upper.jpg";
 
@@ -21,36 +20,25 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-{/* 
+      {/* 
       <main className={styles.main}> */}
       {/* <div className={styles.pagepadding}> */}
-        <Layout>
-         
-           
-
-               {/* Container for About Page Body */}
-          <div className={styles.home__body_container}>
-            
-            {/* Identity Container (photo and qualifications) */}
-            <div className={styles.home__id_container}>
-              
-              {/* Profile Image Container */}
-              <div className={styles.home__id_container_image}>
-                <Image
-                  src={profileImg}
-                  alt="site logo"
-                />
-              </div>
-
+      <Layout>
+        {/* Container for About Page Body */}
+        <div className={styles.home__body_container}>
+          {/* Identity Container (photo and qualifications) */}
+          <div className={styles.home__id_container}>
+            {/* Profile Image Container */}
+            <div className={styles.home__id_container_image}>
+              <Image src={profileImg} alt="site logo" />
             </div>
+          </div>
 
-
-            {/* About me Text */}
-            <div className={styles.home__full_aboutme_text}>
-              
+          {/* About me Text */}
+          <div className={styles.home__full_aboutme_text}>
             {/* Title for Page ( About Molly Barnes*/}
-              <div className={styles.home__title_container}>About Molly</div>
-              
+            <div className={styles.home__title_container}>About Molly</div>
+            <p>
               Welcome! I am a music scholar, teacher, and musician currently
               based in Chapel Hill, NC.
               <br />
@@ -91,14 +79,11 @@ export default function Home() {
               capacities--weddings, parties, church services--and currently I
               can be found performing in concerts, church services, and special
               events across the Raleigh-Durham-Chapel Hill region.
-            </div>
-
-            </div>
-            
-
-        
-        </Layout>
-        {/* </div> */}
+            </p>
+          </div>
+        </div>
+      </Layout>
+      {/* </div> */}
       {/* </main> */}
     </>
   );

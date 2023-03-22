@@ -175,7 +175,14 @@
     .performance__title{
       font-size: 24px;
     }
+
+        .performance__body_text p{
+          font-size: 18px;
+          line-height: 28px;
+          padding: 2px;
+        }
     .performance__body_text a{
-      font-size: 20px;
+      font-size: 16px;
     }
+    
   }

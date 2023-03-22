@@ -90,13 +90,16 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   
 }
 
+.home__full_aboutme_text p {
+  font-size: 28px;
+}
 
 
 @media screen and (max-width: 1450px) {
   
   .home__body_container {
     justify-content: center;
-    padding: 0px;
+    /* padding: 0px; */
     margin: 0px;
   }
 
@@ -122,10 +125,15 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     font-size: 20px;
     margin: 0px;
     margin-right: 10px;
-    padding: 12px;
+    padding: 22px;
     line-height: 32px;
     /* margin-right: 25px; */
     margin-bottom: 30px;
+  }
+
+  .home__full_aboutme_text p {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
@@ -153,7 +161,7 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     font-size: 18px;
 
     width: 700px;
-    padding: 12px;
+    padding: 22px;
     line-height: 32px;
     /* margin-right: 25px; */
     /* margin-bottom: 30px; */
@@ -177,6 +185,10 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     margin: 0px;
     margin-right: 0px;
   }
+  .home__full_aboutme_text p {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 
@@ -186,5 +198,8 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   }
   .home__title_container {
     font-size: 24px;
+  }
+  .home__full_aboutme_text p {
+    font-size: 18px;
   }
 }
