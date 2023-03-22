@@ -23,8 +23,8 @@
 
   
 /* experiment with gradient */
-background-size: 4px 4px;
-background-image: repeating-linear-gradient(45deg, #898989 0, #898989 0.5px, #F5F5DC 0, #F5F5DC 60%);
+background-size: 3px 3px;
+background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
 }
 
 /* Profile Image */
@@ -85,8 +85,8 @@ background-image: repeating-linear-gradient(45deg, #898989 0, #898989 0.5px, #F5
   background-color: beige;
 
 /* experiment with gradient */
-  background-size: 4px 4px;
-  background-image: repeating-linear-gradient(45deg, #898989 0, #898989 0.5px, #F5F5DC 0, #F5F5DC 60%);
+  background-size: 3px 3px;
+  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
   
 }
 

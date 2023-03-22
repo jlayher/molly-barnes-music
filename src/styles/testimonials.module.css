@@ -27,6 +27,9 @@
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+  background-size: 3px 3px;
+  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
   }
 
 .testimonials_pagination_buttons{
@@ -60,6 +63,9 @@ margin-bottom: 10px;
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+  background-size: 3px 3px;
+  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
 }
 
 .testimonials_pagination_buttons_button_active{
@@ -78,6 +84,8 @@ color: beige;
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+  
 }
 
   .testimonials__grid_container {
@@ -85,7 +93,7 @@ color: beige;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px; 
+    gap: 65px; 
 
 
     margin-top: 65px;

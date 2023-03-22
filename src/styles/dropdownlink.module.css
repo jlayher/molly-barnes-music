@@ -43,6 +43,8 @@ visibility: visible;
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
+
+    
 }
 .dropdownlink__dropdown_menu_inactive {
     opacity: 0;
