@@ -23,6 +23,11 @@
     flex-direction: row; */
 }
 
+.link:hover{
+    color: rgb(150, 108, 0);
+
+}
+
 @media screen and (max-width: 1450px) {
     .link {
         font-size: 24px;
