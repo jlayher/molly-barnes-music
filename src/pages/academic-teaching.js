@@ -21,7 +21,8 @@ const AcademicTeaching = () => {
             <p>
               I consider teaching music a passion and a calling, and I love
               getting to know my students as human beings with real lives,
-              hopes, fears, and ambitions. My goal as a teacher--whether I am
+              capacities&mdash;weddings, parties, church services&mdash;and currently I
+              hopes, fears, and ambitions. My goal as a teacherwhether I am
               teaching music history, musicianship skills, or the violin--is to
               share my love of the subject such that my students are inspired to
               learn more and discover the joy that can come from a deep
@@ -55,8 +56,8 @@ const AcademicTeaching = () => {
               <br />
               <br />
               My current book project (based on my PhD dissertation),
-              tentatively titled Old World Harmony, New World Democracy:
-              American Idealism and the European Musical Inheritance, 1830-1870,
+              tentatively titled <i>Old World Harmony, New World Democracy:
+              &nbsp;American Idealism and the European Musical Inheritance, 1830-1870</i>,
               explores mid-nineteenth-century American perceptions of the
               relationship between Western art music and the ideal of democratic
               egalitarianism.
@@ -70,7 +71,9 @@ const AcademicTeaching = () => {
               phenomenon in the nineteenth century; and many other topics.
               <br />
               <br />
-              My 2021 article in Nineteenth-Century Music Review and my 2016
+              My 2021 article in <i>
+              Nineteenth-Century Music Review
+              </i> and my 2016
               dissertation are available for download below.
             </p>
           </div>

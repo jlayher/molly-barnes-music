@@ -93,7 +93,14 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
 .home__full_aboutme_text p {
   font-size: 28px;
 }
+.home__full_aboutme_text i {
+  font-size: 26px;
+}
 
+.home__full_aboutme_text p a{
+  font-size: 26px;
+  color: black;
+}
 
 @media screen and (max-width: 1450px) {
   
@@ -135,6 +142,15 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     font-size: 24px;
     line-height: 32px;
   }
+  .home__full_aboutme_text i {
+    font-size: 24px;
+  }
+  
+  .home__full_aboutme_text p a{
+    font-size: 22px;
+    color: black;
+  }
+  
 }
 
 
@@ -189,6 +205,9 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     font-size: 24px;
     line-height: 32px;
   }
+  .home__full_aboutme_text i {
+    font-size: 24px;
+  }
 }
 
 
@@ -202,4 +221,12 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   .home__full_aboutme_text p {
     font-size: 18px;
   }
+  .home__full_aboutme_text i {
+    font-size: 18px;
+  }
+  .home__full_aboutme_text p a{
+    font-size: 18px;
+    color: black;
+  }
+  
 }

@@ -121,6 +121,10 @@
     line-height: 38px;
 }
 
+.academic__body_text_research i {
+    font-size: 26px;
+}
+
 .academic__body_sidepanel_container {
     display: flex;
     flex-direction: column;
@@ -163,6 +167,10 @@
     .academic__body_text_research p {
         font-size: 22px;
     }
+
+    .academic__body_text_research i {
+    font-size: 22px;
+}
        /* .academic__body_sidepanel_container{
         display: none;
     } */
@@ -217,7 +225,9 @@
     .academic__body_text_teaching p {
         font-size: 18px;
     }
-
+.academic__body_text_research i {
+    font-size: 18px;
+}
     .academic__body_text_research h1 {
         font-size: 20px;
     }

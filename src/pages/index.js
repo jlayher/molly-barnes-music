@@ -39,23 +39,27 @@ export default function Home() {
             {/* Title for Page ( About Molly Barnes*/}
             <div className={styles.home__title_container}>About Molly</div>
             <p>
-              Welcome! I am a music scholar, teacher, and musician currently
+              Welcome! I am a music scholar, teacher, musician, and editor currently
               based in Chapel Hill, NC.
               <br />
               <br />
-              I received my PhD (2016) and my MA (2012) in historical musicology
-              from the University of North Carolina at Chapel Hill, and my BA
-              (2009) in music from Davidson College.
+              I received my PhD and my MA in historical musicology
+              from the University of North Carolina at Chapel Hill and my BA
+             in music from Davidson College.
               <br />
               <br />
               As a scholar I am broadly interested in the relationship between
               musical taste and the formation of cultural hierarchies in the
               West during the eighteenth and nineteenth centuries. My book
-              project, tentatively titled Old World Harmony, New World
-              Democracy: American Idealism and the European Musical Inheritance,
-              1830-1870, examines the intersection of social and democratic
+              project, tentatively titled <i>Old World Harmony, New World
+              Democracy:&nbsp; American Idealism and the European Musical Inheritance,
+              1830-1870</i>, examines the intersection of social and democratic
               idealism with the burgeoning culture of classical music in the
-              United States during the mid-19th century.
+              United States during the mid-19th century.&nbsp;As an independent contractor 
+              with&nbsp;<a href='https://www.dissertation-editor.com/'>Dissertator-Editor.com</a>
+              , I edit 
+              and revise scholarly manuscripts for graduate students and writers
+              seeking academic publication.
               <br />
               <br />
               My primary calling has always been teaching. For three years I
@@ -68,15 +72,15 @@ export default function Home() {
               electives of my own design, such as "Music, Madness, and the
               Modern World," and "Popular Music in 1960s U.S. Culture." In
               addition to my academic teaching, I have taught private music
-              lessons for many years to students of all ages. I am currently a
-              piano and violin teacher at Skylark Music School based in Chapel
+              lessons to students of all ages for many years. I am currently a
+              piano and violin teacher at Skylark Music School in Chapel
               Hill.
               <br />
               <br />I am an active performer on modern violin, baroque violin,
-              and viola da gamba, and have sung with a number of choirs,
+              and viola da gamba, and have sung with professional choirs
               including the Oratorio Singers of the Charlotte Symphony and
               Concentus Carolina. Over the years I have performed in many
-              capacities--weddings, parties, church services--and currently I
+              capacities&mdash;weddings, parties, church services&mdash;and currently I
               can be found performing in concerts, church services, and special
               events across the Raleigh-Durham-Chapel Hill region.
             </p>
