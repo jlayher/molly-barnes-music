@@ -35,13 +35,13 @@ visibility: visible;
     transition: 5000ms ease; */
     background-color: rgb(57, 54, 54);
     opacity: .8;
-    height: 60px;
-    width: 350px;
+    height: 70px;
+    width: 550px;
     border-radius: 12px;
 
     position: absolute;
     margin-top: 48px;
-
+    margin-left: 110px;
 
     padding-top: 2px;
     /* gradient generated with cssmatic.com */
@@ -63,41 +63,70 @@ visibility: visible;
 .dropdownlink__dropdown_menu_active__ul{
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    justify-content: center;
+    padding: 0px;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
     
 }
 
 .dropdownlink__dropdown_menu_active__ul_link {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: aliceblue;
-    padding: 5px 10px;
-    font-size: 22px;   
-
+    /* padding: 5px 15px; */
+    /* margin: 8px 10px 0px 30px; */
+    font-size: 26px;   
+   
 }
 
 @media screen and (max-width: 1450px) {
+
+    
     .dropdownlink__link {
         font-size: 24px;
     }
     .dropdownlink__dropdown_menu_active {
         margin-top: 28px;
-        height: 50px;
-        width: 300px;
+        height: 60px;
+        width: 450px;
     }
     .dropdownlink__dropdown_menu_active__ul_link{
-        font-size: 16px;
-        ;
+        font-size: 18px;
+        
     }
   }
 
   @media screen and (max-width: 1024px) {
+
+    .dropdownlink__dropdown_menu_active__ul{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+
+    }
     .dropdownlink__link {
         font-size: 24px;
+        
+    }
+    .dropdownlink__dropdown_menu_active{
+        margin-right: 107px;
+        height: 150px;
+        width: 200px;
+        border-radius: 12px;
+    
+
+        /* margin-top: 48px;
+        margin-left: 110px;
+     */
+        /* padding-top: 2px; */
     }
   }
+  .dropdownlink__dropdown_menu_active__ul_link{
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
   
 @media screen and (max-width: 768px) {

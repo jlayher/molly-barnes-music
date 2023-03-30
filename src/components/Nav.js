@@ -11,7 +11,7 @@ const Menu = () => {
 <>
 <Link href="/" className={styles.link}>Home</Link>
 <DropdownLink title={"Teaching"} className={styles.link}></DropdownLink>
-<Link href="/testimonials" className={styles.link}>Testimonials</Link>
+
 <Link href="/performance" className={styles.link}>Performance</Link>
 <Link href="Barnes_CV_March_2023.pdf" className={styles.link}>CV</Link>
 <Link href="/contact" className={styles.link}>Contact</Link>
@@ -32,7 +32,8 @@ const Nav = () => {
       <nav className={styles.nav_row}>
         <Link href="/" className={styles.link}>Home</Link>
         <DropdownLink title={"Teaching"} className={styles.link}></DropdownLink>
-        <Link href="/testimonials" className={styles.link}>Testimonials</Link>
+        {/* <Link href="/testimonials" className={styles.link}>Testimonials</Link> */}
+        <Link href="/research" className={styles.link}>Research</Link>
         <Link href="/performance" className={styles.link}>Performance</Link>
         <Link href="Barnes_CV_March_2023.pdf" className={styles.link}>CV</Link>
         <Link href="/contact" className={styles.link}>Contact</Link>

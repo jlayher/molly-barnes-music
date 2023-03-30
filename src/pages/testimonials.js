@@ -34,7 +34,7 @@ const testimonials2 = () => {
 
     return (
         <Layout>
-            <div className={styles.testimonials__title}>Testimonials</div>
+            <div className={styles.testimonials__title}>Teaching Evaluations</div>
 
             <div className={styles.testimonials__grid_container}>
                   {/* pass currentPosts and loading state. */}

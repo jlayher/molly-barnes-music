@@ -21,7 +21,8 @@ const DropdownLink = () => {
         <ul className={styles.dropdownlink__dropdown_menu_active__ul}>
           <Link href="/academic-teaching" className={styles.dropdownlink__dropdown_menu_active__ul_link}>Academic</Link>
           <Link href="/private-lessons" className={styles.dropdownlink__dropdown_menu_active__ul_link}>Private Lessons</Link>
-        </ul>
+          <Link href="/testimonials" className={styles.dropdownlink__dropdown_menu_active__ul_link}>Teaching Evaluations</Link>
+          </ul>
       </div>
     </div>
   );
