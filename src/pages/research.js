@@ -44,13 +44,19 @@ const research = () => {
           </div>
       
           
-        <div className={styles.research__body_image_container}>
-          <Image
+          <div className={styles.research__body_image_container}>
+            <div className={styles.research__body_image_container_img}>
+            <Image
             src={johnSullivanImg}
-            alt="site logo"
+              alt="site logo"
+              
             />
-            <p>
+            </div>
+
+            <p><i>
             John Sullivan Dwight (1813-1893), American music critic and Transcendentalist, and a figure of abiding interest to me.
+            </i>
+           
             </p>
           </div>
 </div>
