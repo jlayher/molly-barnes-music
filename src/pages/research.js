@@ -9,11 +9,11 @@ import SidepanelTest from "@/components/Body-Components/SidepanelTest";
 const research = () => {
     return (
         <Layout>
-
+        <div className={styles.research__container}>
         <div className={styles.research__body_text_research}>
           
-          <div>
-            <h1>Research</h1>
+     
+            <h1 className={styles.research__title}>Research</h1>
               <p>
                 My research primarily concerns issues of musical taste and the
                 formation of cultural hierarchies in the West during the
@@ -42,18 +42,19 @@ const research = () => {
                 dissertation are available for download below, or on the Contact page.
             </p>
           </div>
-
-          <div className={styles.research__body_image_container}>
+      
+          
+        <div className={styles.research__body_image_container}>
           <Image
             src={johnSullivanImg}
             alt="site logo"
             />
-            <div className={styles.research__body_image_container_imagetext}>
+            <p>
             John Sullivan Dwight (1813-1893), American music critic and Transcendentalist, and a figure of abiding interest to me.
-            </div>
+            </p>
           </div>
-
-      </div>
+</div>
+       
           
 
             </Layout>
