@@ -9,10 +9,11 @@ import styles from "@/styles/performance.module.css";
 const Performance = () => {
   return (
     <Layout>
-      <div className={styles.performance__title}>Performance</div>
+      
 
       <div className={styles.performance__body_container}>
         <div className={styles.performance__body_text}>
+        <div className={styles.performance__title}>Performance</div>
           <p>
             As a performer on modern violin, I have played primarily throughout
             North Carolina, especially in concerts in the Charlotte metro region

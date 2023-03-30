@@ -1,35 +1,13 @@
 
 
 .privatelessons__title {
-  display: flex;
+      display: flex;
   justify-content: center;
-
-  flex: auto;
-
-  padding: 10px 20px;
-  margin: 0 auto;
-
-  margin-bottom: 10px;
-  max-width: 50%;
-
-
-  border-radius: 12px;
-  border: 2px solid black;
-  font-size: 38px;
+  padding-top: 10px;
+  font-size: 44px;
   font-weight: 400;
-
+  margin: 10px 0px 10px 0px;
   text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
-  background-color: beige;
-
-
-  
-    /* gradient generated with cssmatic.com */
-  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-
-  background-size: 3px 3px;
-  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
   }
 
   .privatelessons__body_container {
@@ -156,7 +134,7 @@
   @media screen and (max-width: 1024px) {
     .privatelessons__title{
       font-size: 32px;
-      max-width: 80%;
+      /* max-width: 80%; */
     }
     .privatelessons__body_container {
       display: flex;

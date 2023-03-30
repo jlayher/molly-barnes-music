@@ -9,12 +9,13 @@ import privateLessonsImage from "../../public/molly_violin_recital_better.jpg"
 const PrivateLessons = () => {
   return (
     <Layout>
-      <div className={styles.privatelessons__title}>Private Lessons</div>
+ 
 
       {/* body container */}
       <div className={styles.privatelessons__body_container}>
         {/* text container */}
         <div className={styles.privatelessons__body_text}>
+        <div className={styles.privatelessons__title}>Private Lessons</div>
           <p>
             I have taught private violin lessons for many years, and my students
             have ranged in age from 3 to 60. My teaching style is traditional

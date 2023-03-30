@@ -8,16 +8,17 @@ const AcademicTeaching = () => {
   return (
     <Layout>
       {/* academic title container */}
-      <div className={styles.academic__title}>Academic Teaching</div>
+   
 
       {/* Body Content Container */}
       <div className={styles.academic__body_container}>
         
         {/* Container for Academic Teaching and Research Cards */}
         <div className={styles.academic__body_text_container}>
+          
           {/* create a container for Academic teaching and show on left */}
           <div className={styles.academic__body_text_teaching}>
-  
+     <div className={styles.academic__title}>Academic Teaching</div>
             <p>
               I consider teaching music a passion and a calling, and I love
               getting to know my students as human beings with real lives,
@@ -32,7 +33,7 @@ const AcademicTeaching = () => {
               Excerpts from previous student evaluations of my teaching in music
               history and musicianship classes at Durham University,
               UNC-Greensboro, and UNC-Chapel Hill can be viewed in the
-              Teaching Evaluations tab.
+              Teaching Evaluations tab above.
             </p>
           </div>
 
