@@ -1,7 +1,7 @@
 
 .home__body_container {
   display: flex;
-  
+  margin-top: 5px;
 }
 
 /* Contains the Image and Professional Text on Left side */

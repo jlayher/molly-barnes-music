@@ -59,6 +59,10 @@
   
 }
 
+.privatelessons__body_text_anchor{
+  color: black;
+}
+
 /* Contains the Image and Professional Text on Left side */
 .privatelessons__body_image_container {
     display: flex;

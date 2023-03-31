@@ -190,6 +190,7 @@
 
     .research__body_text_research i {
     font-size: 22px;
+ 
 }
        /* .research__body_sidepanel_container{
         display: none;
@@ -205,9 +206,16 @@
         margin-bottom: 10px;
     }
 
+
     .research__body_image_container img {
         max-width: 220px;
         max-height: 321.75px;
+    }   
+        .research__body_image_container {
+        padding-top: 5px;
+    }
+    .research__body_image_container p{
+        /* max-width: 200px; */
     }
     
 }
@@ -252,6 +260,7 @@
         max-width: 60%;
         
     }
+
 }
 @media screen and (max-width: 450px) {
     .research__title{
@@ -295,9 +304,14 @@
         padding: 15px;
         line-height: 24px;
     }
+
+    .research__body_image_container {
+        padding-top: 5px;
+    }
     .research__body_image_container img {
         max-width: 180px;
         max-height: 263.25px;
+      
     }
 }
 
