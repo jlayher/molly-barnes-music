@@ -65,6 +65,7 @@ visibility: visible;
     flex-direction: row;
     align-items: center;
     padding: 0px;
+    padding-top: 2px;;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -80,7 +81,7 @@ visibility: visible;
     padding: 12px 0px;
     /* margin: 8px 10px 0px 30px; */
     font-size: 28px;   
-   
+   text-decoration: none;;
 }
 
 /* .dropdownlink__dropdown_menu_active__ul_link > Link {

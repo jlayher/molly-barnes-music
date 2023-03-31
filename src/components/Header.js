@@ -33,15 +33,12 @@ const [toggleMenu, setToggleMenu] = useState(false)
         }
       {toggleMenu && (
         <div className={styles.header__nav_dropdown_menu_container}>
-            <Link href="/" className={styles.header__nav_dropdown_menu_container_items_container}>Home</Link>
-            {/* make Teaching into academic and private lesson links */}
-            <DropdownLink title={"Teaching"} className={styles.header__nav_dropdown_menu_container_items_container}></DropdownLink>
-            <Link href="/academic-teaching" className={styles.header__nav_dropdown_menu_container_items_container}>Academic</Link>
-
-            <Link href="/private-lessons" className={styles.header__nav_dropdown_menu_container_items_container}>Lessons</Link>
-            
-          <Link href="/testimonials" className={styles.header__nav_dropdown_menu_container_items_container}>Testimonials</Link>
+          <Link href="/" className={styles.header__nav_dropdown_menu_container_items_container}>Home</Link>
+          <Link href="/academic-teaching" className={styles.header__nav_dropdown_menu_container_items_container}>Academic</Link>
+          <Link href="/private-lessons" className={styles.header__nav_dropdown_menu_container_items_container}> Private<br />Lessons</Link>
           <Link href="/performance" className={styles.header__nav_dropdown_menu_container_items_container}>Performance</Link>
+          <Link href="/research" className={styles.header__nav_dropdown_menu_container_items_container}>Research</Link>
+          <Link href="/testimonials" className={styles.header__nav_dropdown_menu_container_items_container}>&nbsp; Teaching<br/>Evaluations</Link>
           <Link href="Barnes_CV_March_2023.pdf" className={styles.header__nav_dropdown_menu_container_items_container}>CV</Link>
           <Link href="/contact" className={styles.header__nav_dropdown_menu_container_items_container}>Contact</Link>
         </div>
