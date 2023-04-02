@@ -9,13 +9,11 @@ import privateLessonsImage from "../../public/molly_violin_recital_better.jpg"
 const PrivateLessons = () => {
   return (
     <Layout>
- 
-
       {/* body container */}
       <div className={styles.privatelessons__body_container}>
         {/* text container */}
         <div className={styles.privatelessons__body_text}>
-        <div className={styles.privatelessons__title}>Private Lessons</div>
+          <div className={styles.privatelessons__title}>Private Lessons</div>
           <p>
             I have taught private violin lessons for many years, and my students
             have ranged in age from 3 to 60. My teaching style is traditional
@@ -34,18 +32,25 @@ const PrivateLessons = () => {
             Currently I teach private lessons in piano and violin, in-home and
             in-studio, through Skylark Music School in Chapel Hill. For more
             information about Skylark, please visit&nbsp;
-            <a className={styles.privatelessons__body_text_anchor} href="https://www.skylarkmusicschool.com">
-            skylarkmusicschool.com.
+            <a
+              className={styles.privatelessons__body_text_anchor}
+              href="https://www.skylarkmusicschool.com">
+              skylarkmusicschool.com.
             </a>
           </p>
         </div>
+
         {/* image container */}
 
-        <div className={styles.privatelessons__body_image_container}>
-          <Image
-            src={privateLessonsImage}
-            alt="site logo"
-          />
+        <div className={styles.privatelessons__body_imgpanel}>
+          <div className={styles.privatelessons__body_image_container}>
+            <Image src={privateLessonsImage} alt="site logo" />
+          </div>
+
+          <div className={styles.privatelessons__container_text} >
+            Molly with her violin students after their winter recital, December
+            2018.
+          </div>
         </div>
 
       </div>

@@ -39,7 +39,7 @@ const research = () => {
                 My 2021 article in&nbsp;
               <a >Nineteenth-Century Music Review</a>
               &nbsp;and my&nbsp;
-              <a>2016 dissertation</a> are available for download below, or on the Contact page.
+              <a>2016 dissertation</a> are available for download.
             </p>
           </div>
       

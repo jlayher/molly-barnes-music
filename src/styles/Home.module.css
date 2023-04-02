@@ -214,9 +214,11 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
 @media screen and (max-width: 450px) {
   .home__full_aboutme_text {
     line-height: 28px;
+
   }
   .home__title_container {
     font-size: 24px;
+    margin: 0px 0px 10px 0px;
   }
   .home__full_aboutme_text p {
     font-size: 18px;
@@ -229,5 +231,10 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     font-size: 18px;
     color: black;
   }
-  
+  .home__body_container{
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
 }
