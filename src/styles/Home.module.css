@@ -176,7 +176,7 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
 
     font-size: 18px;
 
-    width: 700px;
+    width: 800px;
     padding: 22px;
     line-height: 32px;
     /* margin-right: 25px; */
@@ -220,6 +220,7 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   }
   .home__full_aboutme_text p {
     font-size: 18px;
+    line-height: 26px;
   }
   .home__full_aboutme_text i {
     font-size: 18px;

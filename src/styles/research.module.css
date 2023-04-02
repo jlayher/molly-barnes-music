@@ -280,9 +280,10 @@
     .research__body_text_teaching p {
         font-size: 18px;
     }
-.research__body_text_research i {
-    font-size: 18px;
-}
+    .research__body_text_research i{
+        font-size: 18px;
+    }
+
     .research__body_text_research h1 {
         font-size: 24px;
     }
