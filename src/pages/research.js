@@ -36,10 +36,10 @@ const research = () => {
                 phenomenon in the nineteenth century; and many other topics.
                 <br />
                 <br />
-                My 2021 article in <i>
-                Nineteenth-Century Music Review
-                </i> and my 2016
-                dissertation are available for download below, or on the Contact page.
+                My 2021 article in&nbsp;
+              <a >Nineteenth-Century Music Review</a>
+              &nbsp;and my&nbsp;
+              <a>2016 dissertation</a> are available for download below, or on the Contact page.
             </p>
           </div>
       

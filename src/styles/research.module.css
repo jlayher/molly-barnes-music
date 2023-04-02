@@ -79,7 +79,21 @@
     padding: 25px 32px 25px 32px;
     line-height: 38px;
 }
+.research__body_text_research p a {
+    font-size: 28px;
+    line-height: 38px;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
 
+}
+
+/* .research__body_text_anchor{
+    font-size: inherit;
+    padding: 25px 32px 25px 32px;
+    line-height: 38px; 
+    font-style: italic;
+} */
 .research__body_text_research i {
     font-size: 26px;
 }
@@ -187,6 +201,9 @@
     .research__body_text_research p {
         font-size: 22px;
     }
+    .research__body_text_research p a {
+        font-size: 22px;
+    }
 
     .research__body_text_research i {
     font-size: 22px;
@@ -290,6 +307,10 @@
 
     .research__body_text_research p {
         font-size: 18px;
+    }
+    .research__body_text_research p a {
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .research__body_text_research{
