@@ -37,9 +37,12 @@ const research = () => {
                 <br />
                 <br />
                 My 2021 article in&nbsp;
-              <a >Nineteenth-Century Music Review</a>
+              <a href="barnes_the_other_otto_dresel_ncmr.pdf"
+                download="barnes_the_other_otto_dresel_ncmr.pdf">Nineteenth-Century Music Review</a>
               &nbsp;and my&nbsp;
-              <a>2016 dissertation</a> are available for download.
+              <a
+                
+              >2016 dissertation</a> are available for download.
             </p>
           </div>
       
