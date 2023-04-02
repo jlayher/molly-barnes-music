@@ -12,7 +12,7 @@
     
     
         max-width: 50%;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         /* position: relative; */
         border-radius: 12px;
         border: 2px solid black;
@@ -53,7 +53,7 @@
 
     padding: 10px;
     /* max-width: 65%; */
-    margin-top: 45px;
+    margin-top: 0px;
 
 /* gradient generated with cssmatic.com */
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
