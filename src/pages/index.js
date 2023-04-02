@@ -27,6 +27,7 @@ export default function Home() {
         {/* Container for About Page Body */}
         <div className={styles.home__body_container}>
           {/* Identity Container (photo and qualifications) */}
+          
           <div className={styles.home__id_container}>
             {/* Profile Image Container */}
             <div className={styles.home__id_container_image}>

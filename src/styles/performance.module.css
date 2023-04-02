@@ -22,7 +22,7 @@
 
 .performance__body_text {
 
-    max-width: 35%;
+    max-width:45%;
 
     background-color: beige;
     border: 2px solid black;
@@ -63,7 +63,7 @@
     border: 2px solid black;
     border-radius: 12px;
     margin-top: 30px;
-    margin-right: 90px;
+    margin-right: 190px;
     margin-bottom: 40px;
     margin-left: 40px;
 
@@ -84,7 +84,7 @@
     width: 485px;
    
 
-    margin: 12px 12px 12px 12px;
+    margin: 5px 5px 5px 5px;
     border-radius: 25px;
     border: 1px solid black;
   }
@@ -101,6 +101,9 @@
     .performance__body_text{
       max-width: 85%;
       margin-bottom: 40px;
+    }
+    .performance__body_image_container {
+      margin-right: 90px;;
     }
 
     }
