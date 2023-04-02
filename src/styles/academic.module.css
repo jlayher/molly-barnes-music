@@ -122,21 +122,29 @@
 }
 
 .academic__body_textsection p{
-    display: flex;
-    flex: 1;
+    /* display: flex; */
+    /* flex: 1; */
     padding: 30px 20px 0px 20px;
     margin-bottom: 0px;
 }
 
 
+.academic__body_text_anchor{
+    color: black;
+    font-size: 26px;
+    /* padding: 45px 22px 25px 2px; */
+    line-height: 38px;
+    cursor: pointer;
+  }
+
 @media screen and (max-width: 2245px){
     .academic__body_text_teaching {
-        max-height: 650px;
+        max-height: 570px;
     }
 }
 @media screen and (max-width: 1750px){
     .academic__body_text_teaching {
-        max-height: 780px;
+        max-height: 680px;
     }
 }
 
@@ -158,8 +166,13 @@
       font-size: 22px;
     }
 
-    .academic__body_img_container img{
-        /* margin-top: 20px; */
+    
+.academic__body_text_anchor{
+    font-size: 22px;
+  }
+    .academic__body_img_container{
+        margin-top: 10px;
+        margin-bottom: 20px;
 
     }
 
@@ -174,8 +187,8 @@
     }
     
     .academic__body_img_container img{
-        height: 488px;
-        width: 325px;
+        /* height: 488px;
+        width: 325px; */
 
         /* border: 1px solid black;
         display: flex; */
@@ -190,9 +203,11 @@
 
     }
     .academic__body_sidepanel_container{
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
+
+
 }
 @media screen and (max-width: 1024px) {
     .academic__title{
@@ -230,13 +245,25 @@
     }
 
     .academic__body_text_teaching {
-        max-height: 850px;
+        max-height: 920px;
     }
     .academic__photo_quote_container{
         flex-direction: column;
         margin-bottom: 20px;
     }
-    
+    .academic__body_img_container{
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+    }
+    .academic__body_img_container img{
+        height: 488px;
+        width: 325px;
+    }
+
+    .academic__body_text_anchor{
+        font-size: 22px;
+      }
 }
 @media screen and (max-width: 768px) {
     .academic__body_container{
@@ -337,5 +364,9 @@
         height: 450px;
         width: 300px;
     }
+    
+    .academic__body_text_anchor{
+        font-size: 18px;
+      }
 }
 

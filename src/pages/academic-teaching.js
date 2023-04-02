@@ -38,8 +38,9 @@ const AcademicTeaching = () => {
                 <p>
                   Excerpts from previous student evaluations of my teaching in
                   music history and musicianship classes at Durham University,
-                  UNC-Greensboro, and UNC-Chapel Hill can be viewed in the
-                  Teaching Evaluations tab above.
+                UNC-Greensboro, and UNC-Chapel Hill can be viewed in the&nbsp;
+                <a className={styles.academic__body_text_anchor} href="/testimonials">Teaching Evaluations</a>
+                &nbsp;section.
                 </p>
               </div>
             
