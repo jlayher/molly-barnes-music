@@ -246,6 +246,7 @@
 
     .academic__body_text_teaching {
         max-height: 920px;
+        margin-left: 10px;
     }
     .academic__photo_quote_container{
         flex-direction: column;

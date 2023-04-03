@@ -64,6 +64,15 @@ const Contact = () => {
           </a>
 
           </div>
+            <div className={styles.contact__body_item}>
+          <a
+            href="Barnes_Dissertation.pdf"
+            download="Barnes_Dissertation.pdf"
+            className={styles.contact__body_item_downloads}>
+            Dissertation Download
+          </a>
+
+          </div>
 
         </div>
       </div>

@@ -61,7 +61,7 @@ const Footer = () => {
         {/* this contains the Dowload Links */}
         <div className={styles.footer__section_container_close}>
           <div className={styles.footer__section_container}>
-            <div className={styles.footer__section_title}>Downloads</div>
+            <div className={styles.footer__section_title }>Downloads</div>
             <a
               href="Barnes_CV_March_2023.pdf"
               className={styles.footer__section_container_anchors}
@@ -74,6 +74,13 @@ const Footer = () => {
               className={styles.footer__section_container_anchors}
               download="barnes_the_other_otto_dresel_ncmr.pdf">
               Article Download
+            </a>
+            <a
+          
+              className={styles.footer__section_container_anchors}
+              href="Barnes_Dissertation.pdf"
+                download="Barnes_Dissertation.pdf"
+              >Dissertation
             </a>
           </div>
         </div>

@@ -32,7 +32,7 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-
+    align-items: center;;
     border-top-left-radius: 82px ;
     border-top-right-radius: 2px ;
     border-bottom-left-radius: 6px;
@@ -57,8 +57,17 @@
     box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 } */
 
-.footer__section_container_anchors{
 
+/* combine? */
+.footer__section_title_downloads{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row
+}
+
+
+.footer__section_container_anchors{
+padding-top: 2px;
     color: rgb(201, 197, 190);
     
 }
@@ -101,7 +110,8 @@
 .footer__section_container_close {
     display: flex;
     flex-direction: column;
-    justify-content: center;;
+    justify-content: center;
+    align-items: center
 }
 
 @media screen and (max-width: 1450px) {

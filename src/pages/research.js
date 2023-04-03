@@ -40,8 +40,8 @@ const research = () => {
               <a href="barnes_the_other_otto_dresel_ncmr.pdf"
                 download="barnes_the_other_otto_dresel_ncmr.pdf">Nineteenth-Century Music Review</a>
               &nbsp;and my&nbsp;
-              <a
-                
+              <a href="Barnes_Dissertation.pdf"
+                download="Barnes_Dissertation.pdf"
               >2016 dissertation</a> are available for download.
             </p>
           </div>
