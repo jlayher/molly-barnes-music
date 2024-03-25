@@ -49,8 +49,8 @@ const Contact = () => {
           <h3 className={styles.contact__body_titles}>Downloads</h3>
           <div className={styles.contact__body_item}>
           <a
-            href="Barnes_CV_March_2023.pdf"
-            download="Barnes_CV_March_2023.pdf"
+            href="Barnes_CV_March_2024.pdf"
+            download="Barnes_CV_March_2024.pdf"
             className={styles.contact__body_item_downloads}>
             CV Download
             </a>

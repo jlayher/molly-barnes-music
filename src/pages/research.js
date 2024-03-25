@@ -37,7 +37,7 @@ const research = () => {
                 <br />
                 <br />
                 My 2021 article in&nbsp;
-              <a href="barnes_the_other_otto_dresel_ncmr.pdf"
+              <a href="barnes_the_other_otto_dresel_ncmr.pdf" className={styles.article_italic}
                 download="barnes_the_other_otto_dresel_ncmr.pdf">Nineteenth-Century Music Review</a>
               &nbsp;and my&nbsp;
               <a href="Barnes_Dissertation.pdf"

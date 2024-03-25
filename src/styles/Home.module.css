@@ -9,6 +9,7 @@
   display: flex;
 
   background-color: beige;
+
   border-radius: 12px;
   /* margin-top: 15px; */
   margin-left: 45px;
@@ -16,27 +17,17 @@
   max-height: 465px;
   border: 2px solid black;
 
-  /* gradient generated with cssmatic.com */
-  -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-
-
+  background-image: url('../../public/cardboard.png');
   justify-content: center;
   align-items: center;
 
-/*  
-  margin-top: 30px;
-  margin-right: 190px;
-  margin-bottom: 40px;
-  margin-left: 40px; */
-
   /* gradient generated with cssmatic.com */
   -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-  background-size: 3px 3px;
-background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
+  background-size: 2px 2px;
+/* background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%); */
+
 }
 
 
@@ -44,6 +35,8 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../../public/cardboard.png');
+  border-radius: 12px;
 }
 
 /* Profile Image */
@@ -60,6 +53,7 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   margin: 0px 5px 0px 5px;
   border-radius: 25px;
   border: 1px solid black;
+    background-image: url('../../public/cardboard.png');
 }
 
 /* ID Card Info Container */
@@ -68,6 +62,7 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   flex-direction: column;
   align-items: center;
   border: 2px solid black;
+  
 }
 
 
@@ -89,7 +84,8 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   font-size: 28px;
   padding: 5px 60px 40px 60px;
   margin-bottom: 0px;
-  background-color: beige;
+  background-color: rgb(235, 235, 180);
+
   border-radius: 25px;
   line-height: 36px;
   margin-right: 65px;
@@ -103,11 +99,12 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
   -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
   box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
 
-  background-color: beige;
+
 
 /* experiment with gradient */
-  background-size: 3px 3px;
-  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
+  /* background-size: 3px 3px;
+  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%); */
+  background-image: url('../../public/cardboard.png');
   
 }
 
@@ -200,8 +197,6 @@ background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5
     width: 800px;
     padding: 22px;
     line-height: 32px;
-    /* margin-right: 25px; */
-    /* margin-bottom: 30px; */
     margin-right: 0px;
   }
 }

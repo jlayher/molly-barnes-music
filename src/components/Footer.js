@@ -63,9 +63,9 @@ const Footer = () => {
           <div className={styles.footer__section_container}>
             <div className={styles.footer__section_title }>Downloads</div>
             <a
-              href="Barnes_CV_March_2023.pdf"
+              href="Barnes_CV_March_2024.pdf"
               className={styles.footer__section_container_anchors}
-              download="Barnes_CV_March_2023.pdf">
+              download="Barnes_CV_March_2024.pdf">
               CV
             </a>
 

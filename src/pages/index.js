@@ -74,7 +74,7 @@ export default function Home() {
               Modern World," and "Popular Music in 1960s U.S. Culture." In
               addition to my academic teaching, I have taught private music
               lessons to students of all ages for many years. I am currently a
-              piano and violin teacher at Skylark Music School in Chapel
+              piano and violin teacher at <a href="https://www.skylarkmusicschool.com/">Skylark Music School</a> in Chapel
               Hill.
               <br />
               <br />I am an active performer on modern violin, baroque violin,

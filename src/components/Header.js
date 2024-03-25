@@ -39,7 +39,7 @@ const [toggleMenu, setToggleMenu] = useState(false)
           <Link href="/performance" className={styles.header__nav_dropdown_menu_container_items_container}>Performance</Link>
           <Link href="/research" className={styles.header__nav_dropdown_menu_container_items_container}>Research</Link>
           <Link href="/testimonials" className={styles.header__nav_dropdown_menu_container_items_container}>&nbsp; Teaching<br/>Evaluations</Link>
-          <Link href="Barnes_CV_March_2023.pdf" className={styles.header__nav_dropdown_menu_container_items_container}>CV</Link>
+          <Link href="Barnes_CV_March_2024.pdf" className={styles.header__nav_dropdown_menu_container_items_container}>CV</Link>
           <Link href="/contact" className={styles.header__nav_dropdown_menu_container_items_container}>Contact</Link>
         </div>
       )}

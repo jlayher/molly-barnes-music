@@ -8,22 +8,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* html, body {
-  margin: 0px;
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-  position: absolute;
-} */
 body {
-  /* margin: 0px;
-  min-height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: absolute;
-  background-color: rgb(128, 85, 85); */
 
  /* ff 3.6+ */
  background:-moz-radial-gradient(ellipse at 0% 34%, rgba(127, 13, 36, 0.85) 55%, rgba(43, 24, 24, 0.88) 100%);

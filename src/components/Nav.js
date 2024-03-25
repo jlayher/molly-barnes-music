@@ -35,7 +35,7 @@ const Nav = () => {
         {/* <Link href="/testimonials" className={styles.link}>Testimonials</Link> */}
         <Link href="/research" className={styles.link}>Research</Link>
         <Link href="/performance" className={styles.link}>Performance</Link>
-        <Link href="Barnes_CV_March_2023.pdf" className={styles.link}>CV</Link>
+        <Link href="Barnes_CV_March_2024.pdf" className={styles.link}>CV</Link>
         <Link href="/contact" className={styles.link}>Contact</Link>
       </nav>
       

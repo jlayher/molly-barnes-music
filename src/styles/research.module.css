@@ -82,10 +82,14 @@
 .research__body_text_research p a {
     font-size: 28px;
     line-height: 38px;
-    font-style: italic;
+
     cursor: pointer;
     text-decoration: underline;
     color: black;
+}
+
+.article_italic {
+    font-style: italic;
 }
 
 /* .research__body_text_anchor{

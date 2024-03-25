@@ -24,8 +24,8 @@ const Performance = () => {
             in a variety of performance settings, including with the Mallarm&eacute; Chamber Players and El Fuego Early Music Ensemble.
             <br />
             <br />
-            Early music is a major passion of mine, and I am an active performer
-            on the baroque violin and the viola da gamba. I have had the
+            Early music is an abiding passion of mine, and I am an active performer
+            on the baroque violin and the viola da gamba. I have performed with the North Carolina Baroque Orchestra, and have had the
             privilege of participating in the Oberlin Baroque Performance
             Institute, the Amherst Early Music Festival, and the annual Conclave
             of the Viola da Gamba Society of America. In addition to playing

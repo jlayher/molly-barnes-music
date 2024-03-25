@@ -9,6 +9,8 @@
   font-weight: 400;
   margin: 10px 0px 0px 0px;
   text-shadow: 3px 2px 3px rgba(0,0,0,0.25);
+  
+  
   }
 
   .performance__body_container {
@@ -18,13 +20,14 @@
     align-items: flex-start;
     margin-top: 0px;
     
+    
 }
 
 .performance__body_text {
 
     max-width:45%;
 
-    background-color: beige;
+    /* background-color: beige; */
     border: 2px solid black;
     border-radius: 12px;
     padding: 10px;
@@ -36,8 +39,12 @@
     -webkit-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     -moz-box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
     box-shadow: 5px 6px 20px 9px rgba(18,18,18,0.57);
-    background-size: 3px 3px;
-  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%);
+    /* background-size: 3px 3px;
+  background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.2px, #F5F5DC 0, #F5F5DC 80%); */
+
+    background-image: url('../../public/cardboard.png');
+      background-color: rgb(235, 235, 180);
+  
 }
 
 
